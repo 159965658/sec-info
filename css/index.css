@@ -1,0 +1,461 @@
+@media(min-width: 770px) {
+/* 	.top{
+background: url(../images/index/组27.png) no-repeat;
+background-size: 100%;
+} */
+.navbar-inverse {
+	background: url(../images/index/nav-bj.png) no-repeat;
+	background-size: 100%;
+    border-radius: 0;
+    border: none;
+}
+.navbar{margin-bottom: 0;}
+.navbar-inverse .navbar-nav > li > a{
+	color: #8A9CBE;
+}
+.banner img{
+	max-width: 100%;
+	margin: 0 auto;
+}
+/*container*/
+.item-plate1{
+	padding: 4% 0;
+}
+.item-plate1-pic{
+	position: relative;
+	padding: 0;
+}
+.item-plate1-pic img{
+	position: relative;
+	z-index: 2;
+}
+.pic-tag1{
+    font-size: 46px;
+     color: rgba(237,237,237,1);
+    position: absolute;
+    right: 0;
+    top: -12%;
+    z-index: 1;
+}
+.pic-tag2{
+	position: absolute;
+    right: 6%;
+    top: -4%;
+    z-index: 99;
+	font-size:20px;
+	font-weight:400;
+	color:rgba(51,51,51,1);
+	line-height:24px;
+}
+.pic-tag2 .line-l,.pic-tag2 .line-r{
+	display:none;
+}
+.item-plate1-msg{
+	color: #333333;
+	font-size: 18px;
+	line-height: 28px;
+	padding: 0;
+	margin: 7% 0;
+}
+/*item2*/
+.item2{
+	background: #F7F6FD;
+}
+.item2-plate1{
+	padding: 30px 0;
+}
+.item2-plate1 h2{
+	font-size: 24px;
+	color: #333333;
+}
+.item2-plate1 p{
+	font-size: 18px;
+	color: #666666;
+	line-height: 28px;
+}
+/*item3*/
+.item3{
+	background: url(../images/index/2@2x.png)no-repeat;
+	padding: 30px 0;
+	background-size: 100%;
+}
+.item3-tag{
+	position: relative;
+}
+.item3-tag1{
+	font-size:48px;
+	font-weight: 600;
+	color:rgba(18,18,59,1);
+	position: absolute;
+	left: 50%;
+    margin-left: -158px;
+}
+.item3-tag2{
+	font-size:26px;
+	font-weight:300;
+	color:rgba(237,237,237,1);
+	position: absolute;
+	left: 50%;
+	margin-left: -65px;
+	top: 20px;
+}
+.item3-cont{
+	margin: 13% 0;
+	font-size: 20px;
+	color: #EDEDED;
+	line-height: 28px;
+}
+/*item4*/
+.item4 {
+	padding: 20px 0;
+}
+.item4 .container{
+	background: url(../images/index/地图@2x.png) no-repeat;
+	background-size: 100%;
+}
+.item4-cont{
+	background: url(../images/index/组32@2x.png) no-repeat;
+	background-size: 100%;
+	width: 35%;
+	margin: 0 auto;
+	padding: 20px 60px;
+    min-height: 400px;
+    margin: 30px auto;
+}
+.item4-cont h2{
+	font-size:20px;
+	font-weight:300;
+	color:rgba(237,237,237,1);
+}
+.item4-cont p{
+	font-size: 16px;
+	color: #EDEDED;
+	line-height: 26px;
+}
+/*item5*/
+.item5{
+	background: url(../images/index/色相／饱和度2@2x.png)no-repeat;
+	padding: 30px 0;
+	background-size: 100%;
+}
+.item5-tag{
+	position: relative;
+}
+.item5-tag1{
+	font-size:48px;
+	font-weight: 600;
+	font-weight:normal;
+	color:rgba(18,18,59,1);
+	position: absolute;
+	left: 50%;
+    margin-left: -158px;
+}
+.item5-tag2{
+	font-size:26px;
+	font-weight:300;
+	color:rgba(237,237,237,1);
+	position: absolute;
+	left: 50%;
+	margin-left: -174px;
+	top: 20px;
+}
+.item5-cont{
+	margin: 15px 0;
+    margin: 15px 0;
+    padding: 5px 0;
+    
+}
+.item5-cont  h2{
+font-size:24px;
+font-weight:600;
+color:rgba(255,255,255,1);
+margin: 0;
+padding: 10px 0;
+}
+.item5-cont  h2 i{
+	width:47px;
+	height:2px;
+	background:rgba(41,165,254,1);
+	    display: block;
+    margin-top: 10px;
+}
+.item5-cont p{
+	font-size: 18px;
+	color: #FFFFFF;
+	line-height: 26px;
+}
+/*item6*/
+.item6{
+	text-align: center;
+	padding: 30px 0;
+}
+.item6-tag{
+	position: relative;
+}
+.item6-tag1{
+    font-size: 48px;
+    font-weight: 600;
+    /* font-weight: normal; */
+    color: #DEDEDE;
+    position: absolute;
+    left: 50%;
+    margin-left: -117px;
+}
+.item6-tag2{
+    font-size: 16px;
+    font-weight: 600;
+    color: #333333;
+    position: absolute;
+    left: 50%;
+    margin-left: -32px;
+    top: 35px;
+}
+.item6-tag2 i{
+	width:43px;
+height:2px;
+background:rgba(48,108,228,1);
+}
+.item6-cont{
+	margin-top: 90px;
+}
+#name{
+	width: 46%;
+	float:left;
+}
+#phone{
+	width: 46%;
+	float:right;
+}
+.form-group{
+	margin-bottom: 30px;
+	display: flow-root;
+}
+
+.btn-primary {
+    color: #ffffff;
+    background-color: #306CE4;
+    border-color: #306CE4;
+}
+
+}
+@media(max-width: 770px) {
+	p{margin: 0;}
+	.navbar-inverse .navbar-toggle{border: none;}
+.navbar-inverse{
+	margin-bottom: 0;
+	background: #030B2E;
+}
+	.pic-tag1{display: none;}
+	.item-plate1-pic{
+		position: relative;
+	}
+	.pic-tag2{
+		    position: absolute;
+		right: 50%;
+	    margin-right: -78px;
+	    top: 20px;
+	}
+	.pic-tag2 .line-l,.pic-tag2 .line-r{
+		display: block;
+		width: 20px;
+	    display: inline-block;
+	    border-top: 2px solid #030B2E;
+	    vertical-align: super;
+	    margin-right: 10px;
+	}
+	.pic-tag2 .line-r{
+		margin-right: 0;
+		margin-left: 10px;
+	}
+
+	/**/
+	.item2{
+		display: none;
+	}
+	.item2-wap{
+		display: block;
+		background: #F6F7FC;
+		padding: 15px;
+	}
+	.item2-wap .swiper-wrapper{padding: 0 15px;}
+	.item2-wap .swiper-slide{
+	    margin-right: 0 !important;
+	    width: 90%;
+	}
+	.item2-list-msg img{
+		max-width: 80%;
+	}
+	.item2-list-title{
+		border-bottom: 1px solid #DEDEDE;
+	}
+	.item2-list-title h2{
+	 	font-size: 15px;
+	    font-weight: 600;
+	    border-bottom: 2px solid #3C5CD0;
+	    display: inline-block;
+	    margin: 0;
+	    line-height: 28px;
+	 }
+	 .item2-list-msg p{margin: 15px 0;}
+	.item3 {
+	    background: url(../images/index/2@2x-wap.png)no-repeat;
+	    background-size: 100%;
+	    padding-top: 10%;
+	    min-height: 400px;
+	}
+	.item3-cont{
+		color: #fff;
+   		padding: 30% 10% 0;
+	}
+	.item3-tag{
+	position: relative;
+	}
+	.item3-tag1{
+	font-size:48px;
+	font-weight: 600;
+	color:rgba(18,18,59,1);
+	position: absolute;
+	left: 50%;
+	margin-left: -158px;
+	}
+	.item3-tag2{
+	font-size:26px;
+	font-weight:300;
+	color:rgba(237,237,237,1);
+	position: absolute;
+	left: 50%;
+	margin-left: -65px;
+	top: 20px;
+	}
+
+
+	.item4 .container {
+       background: url(../images/index/组485拷贝@2x-wap.png) no-repeat;
+	   background-size: 100%;
+	   min-height: 300px;
+	}
+	.item4-cont{
+		width: 100%;
+	    background: url(../images/index/椭圆2@2x-wap.png)no-repeat;
+	    background-size: 100%;
+	    min-height: 400px;
+	    margin: 10px auto;
+	    color: #fff;
+	    padding: 15%;
+	    padding-bottom: 90%;
+
+	}
+	.item4-cont h2{font-size: 16px;text-align: center;}
+	.item5-cont h2 i{
+		margin: 5px auto;
+		width:24px;
+height:1px;
+background:rgba(41,165,254,1);
+display: block;
+	}
+	.item5-tag{
+	position: relative;
+}
+.item5-tag1{
+	font-size:48px;
+	font-weight: 600;
+	color:rgba(18,18,59,1);
+	position: absolute;
+	left: 50%;
+    margin-left: -158px;
+}
+.item5-tag2{
+	font-size: 16px;
+    margin-left: -107px;
+	font-weight:300;
+	color:rgba(237,237,237,1);
+	position: absolute;
+	left: 50%;
+	top: 35px;
+}
+	.item5 {
+	    background: url(../images/index/图层4@2x-wap.png)no-repeat;
+	    padding: 0;
+	    background-size: 100%;
+	    margin: 0;
+	    padding-top: 10%;
+	}
+	.item5-cont{padding-top:20%;margin: 0;color: #fff	}
+	.item5-cont:last-child{
+		padding: 0;
+		margin-bottom: 70px;
+	}
+	.item5-cont-icon img{max-width: 20%;margin: 0 auto;}
+	.item5-cont h2{width: 40%;margin: 0 auto;font-size: 18px;text-align: center;}
+	.item5-cont p{font-size: 12px;line-height: 20px;margin: 0}
+	.item5-cont-icon,.item5-cont-msg{padding: 0;}
+	.item6-cont{
+		padding-top: 30%;
+    text-align: center;
+	}
+	#name,#phone{
+		width: 100%;
+		margin-bottom: 20px;
+	}
+	.item6-cont .btn-primary{
+		width: 100%;
+		margin-bottom: 20px;
+	}
+	.item6-tag{
+	position: relative;
+	}
+	.item6-tag1{
+	    font-size: 48px;
+	    font-weight: 600;
+	    /* font-weight: normal; */
+	    color: #DEDEDE;
+	    position: absolute;
+	    left: 50%;
+	    margin-left: -117px;
+	}
+	.item6-tag2{
+	    font-size: 16px;
+	    font-weight: 600;
+	    color: #333333;
+	    position: absolute;
+	    left: 50%;
+	    margin-left: -32px;
+	    top: 35px;
+	}
+	.item6-tag2 i{
+		width:43px;
+	height:2px;
+	background:rgba(48,108,228,1);
+	}
+
+
+}
+@media(max-width: 580px) {
+.item4-cont{
+	    padding-bottom: 70%;
+
+	}
+	
+}
+@media(max-width: 450px) {
+.item4-cont{
+	    padding-bottom: 40%;
+	}
+.item5-cont:last-child{
+	margin-bottom: 0;
+}
+.item5{padding: 0}
+	
+}
+@media(max-width: 320px) {
+	.item3 {
+    min-height: 300px;
+}
+.item4-cont{
+	padding-bottom: 10%;
+    min-height: 200px;
+    padding: 1% 15%;
+
+	}
+	
+}

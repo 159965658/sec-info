@@ -1,0 +1,720 @@
+*{
+    box-sizing: border-box;
+}
+.navbar-inverse{
+    background: none;
+    padding-top: 10px;
+    border: none;
+}
+.navbar-nav > li > a{
+    color:#8A9CBE;
+}
+img{
+    width: 100%;
+    height: 100%;
+}
+.dlimg{
+    border-bottom: 1px solid #2B467E;
+    border-left: 1px solid #2B467E;
+    margin-bottom: 0;
+     padding: 30px 13%;
+ }
+ .dlimg dt{
+     width: 40px;
+     height: 44px;
+     margin-left: 15px;
+ }
+ .dlimg dd{
+     font-size:14px;
+ font-family:Microsoft YaHei;
+ font-weight:400;
+ color:rgba(205,219,246,1);
+ line-height:30px;
+ }
+.course{
+    clear: both;
+    background: url('../images/aboutours/histroy.png');
+    background-size: 100% 100%;
+    height:560px;
+    position: relative;
+    overflow-x: scroll;
+}
+.misstext{
+    position: absolute;
+    width: 100%;
+}
+.course .engabout{
+    color:#203767;
+}
+.course .pic-tag2{
+    color:#FFFFFF;
+}
+.timeline{
+    display: flex;
+    margin: 0 100px;
+    margin-top: 7%;
+}
+.tal{
+    color:#FFFFFF;
+}
+.li{
+transition: all 200ms ease-in;
+width: 200px;
+}
+.timestamp{
+display: flex;
+flex-direction: column;
+font-weight: 100;
+}
+.status{
+    justify-content: center;
+    border-top: 2px solid rgba(69,179,252,1);
+    position: relative;
+    transition: all 200ms ease-in;
+/* border-image: linear-gradient(rgba(69,179,252,1),rgba(123,206,215,1),rgba(67,118,198,1),rgba(123,206,215,1),rgba(67,118,198,1),rgba(123,206,215,1),rgba(67,118,198,1)); */
+}
+.author{
+  font-size: 20px;
+  color: #CDDBF6;
+}
+.date{
+font-size: 14px;
+color: #8A9CBE;
+line-height: 20px;
+width: 232px ;
+}
+.status:before{
+  border: none;
+  transition: all 200ms ease-in;
+  content: '';
+  position: absolute;
+  top: -20px;
+  left: -7%;
+  width: 38px;
+  height: 38px;
+  background: url('../images/aboutours/组\ 17@2x.png');
+  background-size: 100%;
+}
+.li:nth-of-type(even){
+    margin-top: 62px;
+}
+.bug{
+    font-size: 14px;
+    font-weight: 600;
+    color: #333333;
+    padding-top: 20px;
+    margin:0 35px
+}
+.progress-bar{
+    width:85%;
+    height: 6px;
+    background-color: #F0F0F0;
+    margin: 20px 0;
+    margin-left: 32px;
+    border-radius: 3px;
+    display: inline-block;
+}
+.num{
+    display: inline-block;
+    padding-left: 15px;
+    padding-top:10px;
+}
+.progress{
+    width: 50%;
+    height: 100%;
+    background-color: #306CE4;
+    border-radius: 3px;
+
+}
+.industry{
+    width: 25%;
+    height: 100%;
+    background-color: #306CE4;
+    border-radius: 3px;
+}
+.expert{
+    width: 10%;
+    height: 100%;
+    background-color: #306CE4;
+    border-radius: 3px;
+}
+.markets{
+    width: 15%;
+    height: 100%;
+    background-color: #306CE4;
+    border-radius: 3px;
+}
+.progress-bar span{
+    color: #000000;
+}
+
+@media(max-width: 768px) {
+    
+.pcadd,.word{
+    display: none;
+}
+    .bug{
+        padding-left: 0;
+        margin-left: 0;
+    }
+    .progress-bar{
+        margin-left: 0;
+        width: 85%;
+    }
+    .cont{
+        padding: 0;
+        margin: 0;
+        width: 100%;
+        height: 100%;
+    }
+    .navbar-inverse .navbar-toggle{
+        border:none;
+    }
+    .banner{
+        position: relative;
+        height: 620px;
+        background: url('../images/aboutours/组 1@2x.png');
+        background-size: 100% 100%;
+        font-size: 50px;
+    }
+    .eng{
+        font-size:36px;
+        font-family:FZCCHJW;
+        font-weight:normal;
+        color:rgba(32,55,103,1);
+        padding-top: 74px;
+        padding-left: 36px;
+    }
+    .eng .about{
+        font-size: 20px;
+        color:rgba(255,255,255,1);
+        position: absolute;
+        top:174px;
+        left: 65px;
+    }
+    .img{
+        width: 317px;
+        height: 216px;
+        margin: 0 auto;
+        margin-top: 103px;
+    }
+    .img img{
+        width: 100%;
+        height: 100%;
+    }
+    .down{
+        position: absolute;
+        bottom:0;
+        left: 48%;
+    }
+    .engabout{
+        display: none;
+    }
+    .bgabout{
+        display: inline-block;
+        margin-left: 35%;
+        margin-top: 30px;
+    }
+    .tellabout{
+        display: inline-block;
+        margin-left: 35%;
+        margin-top: 30px;
+    }
+    .pic-tag2{
+        display: inline-block;
+        font-size: 16px;
+        padding: 0 2px;
+}
+.pic-tag2 .line-l,.pic-tag2 .line-r{
+    display: block;
+    width: 20px;
+    display: inline-block;
+    border-top: 2px solid #030B2E;
+    vertical-align: middle;
+    margin-right: 10px;
+}
+.pic-tag2 .line-r{
+    margin-right: 0;
+    margin-left: 10px;
+}
+    .abouts{
+        display: inline-block;
+        font-size: 16px;
+        padding: 0 2px;
+    }
+    .line{
+        display: inline-block;
+        width:14px;
+        height:2px;
+        background:rgba(3,11,46,1);
+        border-radius:1px;
+    }
+    .item-plate1-pic{
+        width: 233px;
+        height: 205px;
+        margin-left: 20%;
+        margin-top: 36px;
+    }
+    .item-plate1-msg{
+        font-size:14px;
+        font-family:Microsoft YaHei;
+        font-weight:400;
+        color:rgba(102,102,102,1);
+        line-height:20px;        
+        padding-bottom: 24.5px;
+    }
+    .course .pic-tag2{
+        
+        margin-left: 34%;
+    }
+    .course,.talent .pic-tag2 i{
+        border-color:#FFFFFF;
+    }
+    .pate-img{
+        display: none;
+    }
+    .course{
+        clear: both;
+        height: 417px;
+        background: url('../images/aboutours/组 1@2x.png');
+        background-size: 100% 100%;
+        font-size: 50px;
+        margin-top: 24.5px;
+    }
+    .date{
+        width: 160px;
+        line-height: 15px;
+    }
+    .li{
+        width: 140px;
+    }
+    .li:nth-of-type(even) .status:before{
+        margin-top: 5px;
+    }
+    .small{
+        width: 140px;
+    }
+    .timeline{
+        margin: 0 20px;
+    }
+    .misstext{
+        display: inline-block;
+        margin-left: 30%;
+        margin-top: 30px;
+    }
+    .mission{
+        background-color: #F7F6FD;
+        height: 680px;
+    }
+    .vision{
+        width: 300px;
+        height: 160px;
+        position: relative;
+        margin: 0 auto;
+        margin-top: 24%;
+        background: #FFFFFF;
+        border-radius:20px;
+    }
+    .vision h2{
+        text-align: center;
+        padding-top: 12%;
+        font-size: 18px;
+        color: #333333;
+        font-weight: 600;
+    }
+    .vis-img{
+        width: 58px;
+        height: 58px;
+        position: absolute;
+        left: 40%;
+        top: -16%;
+    }
+    .vision-mes{
+        color: #666666;
+        font-size: 14px;
+        text-align: center;
+        padding-top: 8%;
+    }
+    .lang{
+       margin-top: 50px;
+    }
+    .lang .vision-mes{
+        padding: 0 13%;
+        text-align: left;
+        padding-top: 0;
+    }
+    .about-pic{
+        width: 300px;
+        height: 182px;
+        margin-top: 20px;
+        margin-left: 15px;
+    }
+    h1{
+        font-size: 14px;
+        font-weight: 600;
+        color:#333333;
+    }
+    h1 span{
+        display: inline-block;
+        width: 10px;
+        height: 10px;
+        background: #0066FF;
+        margin-right: 10px;
+    }
+    .team-mis li{
+        background: url('../images/aboutours/left.png') no-repeat 2px 0;
+        background-size: 6px 9px;
+        padding-left: 15px;
+    }
+    .talent{
+        clear: both;
+        background: url('../images/aboutours/组\ 1@2x.png');
+        background-size: 100%;
+        padding-bottom: 15px;
+    }
+    
+.white .line-l,.white .line-r{
+    border-color: #FFFFFF;
+}
+.talmes{
+    color:#CDDBF6;
+    font-size: 14px;
+    line-height: 20px;
+    padding:0 20px;
+}
+
+.button{
+    margin: 20px auto;
+    width:180px;
+height:40px;
+background:rgba(0,102,255,1);
+border-radius:20px;
+color: #FFFFFF;
+clear: both;
+line-height: 40px;
+text-align: center;
+}
+.dllist{
+    height:400px;
+}
+.appdis{
+    padding: 28px 10px;
+}
+.address{
+    background: url('../images/aboutours/dizhi@2x.png') no-repeat;
+    background-size: 19px 22px;
+}
+.appdis li{
+    font-size:14px;
+    font-family:Microsoft YaHei;
+    font-weight:400;
+    color:rgba(102,102,102,1);
+    padding-left: 35px;
+    padding-bottom: 15px;
+}
+.email{
+    background: url('../images/aboutours/xinfeng.png') no-repeat;
+    background-size: 19px 15px;
+}
+.weibo{
+    background: url('../images/aboutours/weibo.png') no-repeat;
+    background-size: 25px 19px;
+}
+.vx{
+    background: url('../images/aboutours/weixin.png') no-repeat;
+    background-size: 25px 21px;
+}
+}
+@media(min-width: 770px) {
+    .banner{
+        height: 700px;
+        background: url('../images/aboutours/banner.png');
+        background-size: 100% 100%; 
+        position: relative;
+    }
+    .eng{
+        font-size:72px;
+        font-family:FZCCHJW;
+        font-weight:normal;
+        color:rgba(32,55,103,1);
+        padding-top: 80px;
+        padding-left: 360px;
+    }
+    .eng .about{
+        font-size: 40px;
+        color:rgba(255,255,255,1);
+        position: absolute;
+        top:204px;
+        left: 410px;
+    }
+    .img{
+        width: 636px;
+        height: 420px;
+        margin: 0 auto;
+    }
+    .img img{
+        width: 100%;
+        height: 100%;
+    }
+    .down{
+        display: none;
+    }
+    .bgabout{
+        margin: 0 auto;
+        position: absolute;
+        left: 42%;
+    }
+    .abouttext{
+        position: relative;
+    }
+    .engabout{
+        padding-top: 10px;
+        text-align: center;
+        font-size:46px;
+        font-family:FZCCHJW;
+        font-weight:normal;
+        color:rgba(237,237,237,1);
+    }
+    .abouts{
+        position: absolute;
+        font-size:24px;
+        font-family:PingFang SC;
+        font-weight:600;
+        color:rgba(51,51,51,1);
+        top:40px;
+        left:47%;
+        border-bottom: 2px solid #306CE4;
+    }
+    .item-plate1-pic{
+        width: 400px;
+        height: 400px;
+        margin-left: 10%;
+        margin-top: 6%;
+    }
+    .item-plate1-pic img{
+        width:100%;
+        height: 100%;
+    }
+    .item-plate1-msg{
+        font-size:14px;
+        font-family:PingFang SC;
+        font-weight:400;
+        color:rgba(102,102,102,1);
+        line-height:30px;
+        padding-left: 84px;
+        padding-top: 10%;
+    }
+    .pate-img{
+        width: 94px;
+        height: 94px;
+        float: right;
+    }
+    .pate-img img{
+        width:100%;
+        height: 100%;
+    }
+    .pic-tag2{
+        position: absolute;
+        left: 36%;
+        top: 45px;
+        z-index: 99;
+        font-size:24px;
+        font-weight:400;
+        color:rgba(51,51,51,1);
+        line-height:24px;
+        border-bottom: 2px solid #306CE4;
+        padding-bottom: 5px;
+        font-weight: 600;
+    }
+    .pic-tag2 .line-l,.pic-tag2 .line-r{
+        display:none;
+    }
+  
+ .last{
+     padding-right: 180px;
+ }
+ .mission{
+     background-color: #F7F6FD;
+     height: 460px;
+ }
+ .vision{
+     width: 310px;
+     height: 260px;
+     position: relative;
+     margin-top: 36%;
+     background: #FFFFFF;
+     border-radius:20px;
+ }
+ .vision h2{
+     text-align: center;
+     padding-top: 18%;
+     font-size: 18px;
+     color: #333333;
+     font-weight: 600;
+     padding-bottom: 10%;
+ }
+ .vis-img{
+     width: 82px;
+     height: 82px;
+     position: absolute;
+     left: 37%;
+     top: -16%;
+ }
+ .vision-mes{
+     color: #666666;
+     font-size: 14px;
+     text-align: center;
+ }
+ .col-lg-4 {
+    width: 18%;
+    margin-left: 10%;
+    margin-top: 6%;
+}
+.team{
+    background: url('../images/aboutours/bigbg.png');
+    position: relative;
+    height: 1240px;
+}
+.team-head{
+    width: 80%;
+    background: #FFFFFF;
+    height: 720px;
+}
+.team-head .pic-tag2{
+    left: 38%;
+}
+.engabout{
+    color: #EDEDED;
+}
+h1{
+    font-size:16px;
+    font-family:PingFang SC;
+    font-weight:400;
+    color:rgba(51,51,51,1);
+    line-height:24px;
+    font-weight: 600;
+    padding-left: 28px;
+    background: url('../images/aboutours/maohao.png') no-repeat 5px;
+    background-size: 18px;
+}
+.team-mis{
+    list-style-type: disc;
+    padding-left: 38px;
+    line-height: 20px;
+    color: #666666;
+}
+.misstext .pic-tag2,.course .pic-tag2,.telltext{
+    left: 48%;
+}
+
+.item-plate1-img{
+    position: absolute;
+    right:9%;
+    width: 500px;
+    height: 360px;
+    margin-top: 10%;
+    margin-left: 8%;
+}
+.talent{
+    position: relative;
+}
+.tal{
+    color:#FFFFFF;
+    left: 33%;
+}
+.tale{
+    color:#203767;
+}
+.about-pic{
+    position: absolute;
+    right: 0;
+    width: 600px;
+    height: 300px;
+    margin-top: 10%;
+    margin-left: 15px;
+}
+.talmes{
+    color:#CDDBF6;
+    font-size: 14px;
+    line-height: 20px;
+    padding-top: 10%;
+}
+.button{
+    display: none;
+}
+.dlimg{
+    padding: 30px 8%;
+}
+.talent {
+    padding: 0 10%;
+}
+.tellous{
+    position: relative;
+    margin-bottom: 130px;
+}
+.map{
+    width: 100%;
+    height: 480px;
+    position: relative;
+}
+.appdis{
+    display: none;
+}
+.pcadd{
+    position: absolute;
+    left: 20%;
+    bottom:-10%;
+    width: 320px;
+    height: 220px;
+    background: #204899;
+    font-size:14px;
+font-family:PingFang SC;
+font-weight:400;
+color:rgba(255,255,255,1);
+padding: 20px;
+}
+.address{
+    background: url('../images/aboutours/dizhi.png') no-repeat;
+    background-size: 19px 22px;
+    float: left;
+}
+.pcadd li{
+    font-size:14px;
+    font-family:Microsoft YaHei;
+    font-weight:400;
+    color:#FFFFFF;
+    padding-left: 35px;
+    padding-bottom: 5px;
+}
+.email{
+    clear: both;
+    background: url('../images/aboutours/xinfeng@2x.png') no-repeat;
+    background-size: 19px 15px;
+}
+.weibo{
+    background: url('../images/aboutours/weibo@2x.png') no-repeat;
+    background-size: 25px 19px; 
+    margin:10px 0;
+}
+.vx{
+    background: url('../images/aboutours/weixin@2x.png') no-repeat;
+    background-size: 25px 21px;
+}
+.rig{
+    float: right;
+}
+.word{
+    margin-left: 55%;
+    margin-top: 30px;
+}
+.word li{
+    float: left;
+    width: 40%;
+    padding-top: 10px;
+    padding-left: 25px;
+}
+.emails{
+    background: url('../images/aboutours/xinfeng3.png') no-repeat 0 13px;
+    background-size: 19px 15px;
+}
+}
