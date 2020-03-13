@@ -211,7 +211,7 @@ color:#ffffff
     }
     .datlist ul{
         display: flex;
-        padding: 50px;
+        padding:20px 50px;
     }
     .datlist ul li{
         flex: 1;
@@ -246,8 +246,9 @@ color:#ffffff
         display: none;
     }
     .pattern{
-        width: 72%;
+        width: 100%;
         margin: 0 auto;
+        background: #F7F6FD;
     }
     .pattern .rig{
         left: 42%;
@@ -255,6 +256,8 @@ color:#ffffff
     .pattern h2{
         font-size: 18px;
         clear: both;
+        
+    padding-left: 15%;
     }
     .pattern h2 span{
         display: inline-block;
@@ -262,6 +265,9 @@ color:#ffffff
         height: 3px;
         background: #0066FF;
         margin-right: 1%;
+    }
+    .patul{
+        padding: 0 15%;
     }
     .patul li{
         position: relative;
@@ -296,12 +302,13 @@ color:#ffffff
         margin-top: 40px;
     }
     #name{
-        width: 50%;
+        width: 49%;
         float: left;
     }
     #phone {
-        width: 46%;
+        width: 49%;
         float: right;
+        margin-left: 10px;
     }
     .btn{
         display: block;
@@ -350,7 +357,7 @@ color:#ffffff
         line-height: 18px;
     }
     .down{
-        bottom: 48px;
+        bottom: -10px;
     }
     .bgabout{
         margin-left: 19%;
@@ -640,5 +647,14 @@ margin-left: 33%;
     width: 66px;
     height: 46px;
     padding: 5px;
+}
+.slect{
+    overflow-x: scroll;
+}
+.slect img {
+    width: 240%;
+    height: 100%;
+    overflow-x: scroll;
+    margin-left: -48%;
 }
 }
