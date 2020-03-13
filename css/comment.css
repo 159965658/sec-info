@@ -43,7 +43,9 @@ font-size: 16px;
 .navbar-inverse .navbar-nav > li > a{
 	color: #8A9CBE;
 	font-size: 16px;
+	padding:10px 30px;
 }
+
 .navbar{margin-bottom: 0;}
 .navbar-inverse .navbar-nav > .active > a, .navbar-inverse .navbar-nav > .active > a:hover, .navbar-inverse .navbar-nav > .active > a:focus{
 	background: none
@@ -67,12 +69,13 @@ font-size: 16px;
 /*footer*/
 .footer{
 	background: #121732;
+	padding-top: 30px;
 }
 .footer h3{
 	color: #8A9CBE;
 	width: 50%;
 	font-size: 16px;
-	line-height: 28px;
+	line-height: 50px;
 	border-bottom: 1px solid #30436D;
 }
 .footer li{	
@@ -88,6 +91,7 @@ font-size: 16px;
 .footer-logo{
 	margin-top: 10%;
 }
+.footer-logo img{max-width: 85%}
 .footer-weixin p{
 	color: #8A9CBE;
 	font-size: 15px;
@@ -100,9 +104,10 @@ font-size: 16px;
 	height:1px;
 	background:rgba(48,67,109,1);
 }
+.copy .hr-line{margin-top: 30px;}
 .copy p{
 	text-align: center;
-	font-size: 14px;
+	font-size: 12px;
 	color: #8A9CBE;
 	padding: 30px 0;
 }
