@@ -1,0 +1,239 @@
+.banner .img-responsive{margin:0}
+.navbar-inverse{
+	background-color: #051b3f !important;
+	border:none
+}
+.article-title {
+	text-align: center;
+}
+.article-title h2{
+	font-size: 20px;
+	color: #333;
+}
+.article-title span{
+	margin-right: 30px;
+	font-size: 14px;
+	line-height: 26px;
+	color: #999;
+}
+.article-title span .icon-share{
+	background: url(./images/fenxiang@2x.png)no-repeat;
+	width: 15px;
+	height: 13px;
+	display: inline-block;
+	background-size: 80%;
+	vertical-align: middle;
+}
+.icon-reprint{
+	background: url(./images/wenzhangzhuanzai@2x.png)no-repeat;
+	width: 15px;
+	height: 15px;
+	display: inline-block;
+	background-size: 80%;
+	vertical-align: middle;
+}
+.article-cont {
+	font-size: 14px;
+	color: #333;
+	line-height: 26px;
+	text-indent: 30px;
+}
+.img-responsive{
+	margin: 15px 0;
+}
+.share-move{
+	text-align: center;
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+.share-move a{ 
+	width:50px;
+	height:50px;
+	background:rgba(48,108,228,1);
+	border-radius:50%;
+	display: inline-block;
+	color: #fff;
+	line-height: 50px;
+}
+
+
+@media(min-width: 770px) {
+	.item-pc{
+		margin-top: 40px;;
+	}
+	.input-group{
+		width: 100%;
+    padding-right: 20px;
+    border-bottom: 1px solid #ccc;
+    vertical-align: middle;
+    display: flex;
+	}
+	.input-group input{
+		background: none;
+		border: none;
+		line-height: 40px;
+		padding-left: 20px;
+		color: #999999;
+		width: 100%;
+		font-size: 14px;
+	}
+	.input-group-search{
+		background: url(../images/news/sousuo@2x.png) no-repeat;
+    background-size: 100%;
+    display: table-cell;
+    padding-top: 10px;
+    width: 18px;
+    margin-top: 10px;
+	}
+	.item-nav{
+		border:1px solid #dedede;
+		margin: 20px 0;
+    	padding: 0 20px;
+	}
+	.item-nav h2{
+		font-size: 18px;
+		font-weight: 500;
+		color: rgba(51,51,51,1);
+	}
+	.item-nav h2 i{
+		background: url(../images/news/xinwengonggao@2x.png) no-repeat;
+    background-size: 100%;
+	width: 32px;
+	height: 32px;;
+    display: inline-block;
+    margin-right: 10px;
+    vertical-align: middle;
+	}
+	.item-nav li{
+		padding: 15px 0;
+		font-size: 16px;
+		font-weight: 400;
+		color: rgba(51,51,51,1);
+		border-bottom: 1px solid #ebebeb;
+	}
+	.item-nav li:last-child{border:none}
+	.item-nav li a{text-decoration: none;color: #333;}
+	.item-nav li i{
+		width:8px;
+		height:8px;
+		border: 1px solid #306CE4;
+		border-radius:50%;
+		display: inline-block;
+		margin-right: 10px;;
+	}
+	.hot-active{
+		padding: 0 20px;
+		border: 1px solid #ebebeb;
+	}
+	.hot-active h2{
+		font-size:18px;
+		font-weight:500;
+		color:rgba(51,51,51,1);
+	}
+	.hot-active ul li{margin-bottom: 15px;}
+	.hot-active ul li h2{
+		font-size:14px;
+		font-weight:400;
+		color:rgba(51,51,51,1);
+	}
+	.hot-active h2 i{
+		background: url(../images/news/remen@2x.png) no-repeat;
+		background-size: 100%;
+		width: 32px;
+		height: 32px;;
+		display: inline-block;
+		margin-right: 10px;
+		vertical-align: middle;
+	}
+	.active-title{height: 70px;}
+	.active-title .active-icon{
+		width: 54px;
+		height: 54px;
+		background: rgba(48,108,228,1);
+		border-radius: 10px;
+		display: inline-block;
+		float: left;
+		margin-right: 15px;
+	}
+	.active-icon i:nth-child(1){
+		font-size: 22px;
+		font-weight: bold;
+		color: rgba(255,255,255,1);
+		text-align: center;
+		display: block;
+	}
+	.active-icon i:nth-child(2){
+    font-size: 16px;
+    font-weight: bold;
+    font-style: italic;
+    color: rgba(255,255,255,1);
+    display: block;
+    text-align: center;
+	}
+	.active-title h2{
+		font-size: 18px;
+		font-weight: 500;
+		color: rgba(51,51,51,1);
+	}
+	.active-title h2 span{
+		font-size: 14px;
+		font-weight: 400;
+		color: rgba(153,153,153,1);
+		display: block;
+		margin-top: 15px;
+	}
+	.active-ft{
+		font-size: 14px;
+		font-weight: 400;
+		color: rgba(102,102,102,1);
+		text-indent: 30px;
+	}
+}
+
+.wap-active-list{
+	height: 100px;
+    border-bottom: 1px solid #ebebeb;
+}
+.wap-active-list:nth-child(3){
+	height: 330px;
+}
+.wap-active-msg h2{
+	font-size: 15px;
+    font-family: Microsoft YaHei;
+    font-weight: 400;
+    color: rgba(51,51,51,1);
+    line-height: 18px;
+}
+.wap-active-msg p{
+	font-size: 12px;
+    font-family: Microsoft YaHei;
+    font-weight: 400;
+    color: rgba(153,153,153,1);
+}
+.wap-active-msg p i{
+	width: 10px;
+    height: 10px;
+    font-size: 10px;
+    font-family: Microsoft YaHei;
+    font-weight: 400;
+    color: rgba(255,65,65,1);
+    line-height: 18px;
+    font-style: normal;
+    border: 1px solid #f00;
+    border-radius: 5px;
+    display: inline;
+    padding: 2px;
+    margin-right: 10px;
+}
+.title-info span{margin-right: 10px;}
+.item-wap .MORE{
+	border:1px solid rgba(48,108,228,1);
+	border-radius:5px;
+	font-size: 14px;
+	color: #306CE4;
+	margin: 40px auto;
+	text-decoration: none;
+	display: inline-block;
+	padding: 5px 10px;
+}
+.item-wap .more-box{margin: 0 auto;text-align: center;}
