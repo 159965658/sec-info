@@ -361,6 +361,10 @@ color:#ffffff
 .row{
     padding-top: 20px;
 }
+
+.system .pic-tag2{
+    left: 42%!important;
+}
 }
 
 
@@ -393,9 +397,12 @@ color:#ffffff
         margin: 20px auto;
         width: 80%;
         position: relative;
-        font-size: 12px;
-        line-height: 20px;
+        font-size: 14px;
+        line-height: 30px;
         color: #666666;
+    }
+    .inter p{
+        margin: 0!important;
     }
     .inimg{
         position: absolute;
