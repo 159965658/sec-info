@@ -33,6 +33,8 @@ font-size: 16px;
 }
 .row{margin: 0;}
 /*nav*/
+
+.navbar{margin-bottom: 0!important;border:none!important;}
 .navbar-brand{
 	background: url(../images/comment/logo@2x.png)no-repeat;
 	width: 116px;
@@ -116,8 +118,6 @@ font-size: 16px;
 .navbar-brand{	
 	margin-left: 15px;
 }
-.navbar{margin-bottom: 0;}
-}
 @media(max-width: 768px) {
 .article-title{text-align: left !important;}
 .footer-weixin {
@@ -193,15 +193,11 @@ font-size: 16px;
 	top: -10px;
 	left: 0
 }
-.navbar-inverse{
-	background: #030B2E!important;
-	border: none!important;
-}
+
 @media only screen and (min-width: 767px) {
 	#navigation h1.navbar-brand {
 		font-size: inherit !important
 	}
-
 	#navigation h1.navbar-brand img {
 		position: relative;
 		top: 12px;
@@ -310,6 +306,11 @@ font-size: 16px;
 @media only screen and (max-width: 767px) {
 	.navbar-nav .open .dropdown-menu{
 		padding-left: 20px;
+	}
+	
+	.navbar-inverse{
+		background: #030B2E!important;
+		border: none!important;
 	}
 	.navbar{
 		margin-bottom: 0!important;
@@ -529,7 +530,9 @@ footer span {
 	background: #fff;
 	color: #007bc7
 }
-
+.navbar-inverse .navbar-nav>.open>a, .navbar-inverse .navbar-nav>.open>a:focus, .navbar-inverse .navbar-nav>.open>a:hover{
+	background: none!important;
+}
 @media screen and (max-width: 768px) {
 	section.section {
 		background-position: 50%
@@ -722,4 +725,5 @@ footer span {
 	opacity: 0;
 	z-index: 0;
 	animation-delay: 4s
+}
 }
