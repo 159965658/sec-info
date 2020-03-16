@@ -2,6 +2,38 @@ h1,h2,h3,h4,h5,h6{
     margin: 0;
     padding: 0;
 }
+
+.bitmes{
+    font-size: 12px;
+    color:#666666;
+    width: 90%;
+    margin: 0 auto;
+    line-height: 16px;
+}
+.platform{
+    height: 100px;
+    background: none;
+}
+.platform h2 span{
+    width: 10px;
+    height: 10px;
+    margin-right: 10px;
+}
+.two{
+    clear: both;
+    width: 73%;
+    margin: 0px auto;
+}
+.ser-left{
+    float: left;
+    background: url('../images/block/hover.png');
+    background-size: 100%;
+    color:#FFFFFF;
+}
+.ser-right{
+    color: #99B3E4;
+}
+
 @media (min-width: 770px){
     .banner{
         background: url("../images/block/paban.png") no-repeat;
@@ -30,23 +62,24 @@ h1,h2,h3,h4,h5,h6{
     }
     .pic-tag2 {
         left: 48%;
+        line-height: 13px;
     }
     .none{
         margin-left: 48%;
     }
-    #BID{
+    #BID,#BIT{
         background: #F5F6FD;
     }
     .BIDleft{
         color:#333333;
         background: url("../images/block/bid.png") no-repeat;
         background-size: 100%;
-        margin-top: 60px;
-        padding-left: 11%;
+        margin-top: 28px;
+        padding-left: 18%;
     }
     .BIDleft .bidbig{
         font-size: 30px;
-        
+        padding-top: 10px;
     }
     .BIDleft .bidbig span{
         font-size:38px;
@@ -75,7 +108,8 @@ h1,h2,h3,h4,h5,h6{
         padding-left: 0;
     }
     .privacy{
-        margin-top: 10%;
+        margin-top: 14%;
+        margin-left: -9%;
     }
     .appshow{
         display: none;
@@ -95,17 +129,17 @@ h1,h2,h3,h4,h5,h6{
     }
     .secul{
         color:#FFFFFF;
-        width: 80%;
+        width: 65%;
         margin: 20px auto;
     }
     .secli{
         background: url('../images/block/line.png') no-repeat right 20px;
-        height: 328px;
+        height: 379px;
     }
     .secli h5{
         font-size: 16px;
         text-align: center;
-        padding: 20px 0;
+        padding:17% 0;
     }
     .secli p{
         font-size: 14px;
@@ -114,13 +148,151 @@ h1,h2,h3,h4,h5,h6{
     }
     .secli:hover{
         background: url('../images/block/hover.png') no-repeat;
-        background-size: 100%;
+        background-size: 100% 100%;
     }
     .message{
         color:#999999;
         text-align: center;
         font-size: 14px;
+        padding: 10px 0;
     }
+    .bitmes{
+        width: 56%;
+        font-size: 14px;
+        line-height: 22px;
+        padding-bottom: 15px;
+    }
+    .item6 .pic-tag2{
+        left: 7%;
+    }
+    .bgabout{
+        margin-bottom: 15px;
+    }
+    .imglist{
+        clear:both;
+    }
+    .patul {
+        width: 70%;
+        margin: 0 auto;
+        padding:0;
+    }
+    .patul li span{
+        color:#FFFFFF;
+        left: 10px;
+        top: 23px;
+    }
+    #BIT{
+        height: 680px;
+    }
+    .parli h6{
+        font-size: 16px;
+        color: #333333;
+        padding-top: 30px;
+        position: relative;
+    }
+    .patul li{
+        margin:1% 10px;
+        padding: 0 2%;
+    }
+    .parli p{
+        padding-top: 15px;
+    }
+    .parli{
+        width:288px!important;
+        height:185px;
+    }
+    .pc_{
+        width: 30px;
+        height: 2px;
+        background: #306CE4;
+        margin-top: 10px;
+        padding: 0!important;
+    }
+    .parli:hover{
+        background:rgba(255,255,255,1);
+        box-shadow:0px 0px 16px 0px rgba(139,139,139,0.17);
+    }
+    .parli:hover  span{
+        color:#C4D8FF;
+    }
+    .parli:hover  .pc_{
+        width: 100%;
+    }
+    #service{
+        background: url("../images/block/seribg.png") no-repeat;
+        background-size: 100%;
+        position: relative;
+        height: 612px;
+    }
+    .platform{
+        width: 70%;
+        color: #FFFFFF;
+        padding: 0;
+        margin: 0;
+        margin-left: 13%;
+    }
+    .platmes{
+        padding-left: 20%;
+        padding-top: 20px;
+    }
+    .two{
+        width: 63%;
+        border:1px solid #30436D;
+    }
+    .ser-left{
+        margin-left: -3%;
+        height: 266px;
+        margin-top: 40px;
+        background-size: 96% 100%;
+    }
+    .ser-left h4{
+        font-size: 18px;
+        padding-top: 60px;
+        text-align: center;
+    }
+    .ser-left p{
+        font-size: 11px;
+        line-height: 15px;
+        padding: 40px 12%;
+    }
+    .ser-right dt{
+        width: 65px;
+        height: 65px;
+        margin: 0;
+    }
+    .ser-right h5{
+        font-size: 14px;
+        padding:0 10px;
+    }
+    .ser-right p{
+        color:#8A9CBE;
+        font-size: 14px;
+        line-height: 18px;
+        padding-left: 10px;
+        padding-top: 5px;
+    }
+    .ser-right{
+        display: inline-block;
+        width: 71%;
+    }
+.secdl{
+    display: inline-block;
+    width: 49%;
+   padding:0 5%;
+    margin: 0;
+    border-bottom:1px solid #30436D;
+}
+.secdl:nth-child(odd){
+    border-right:1px solid #30436D; 
+}
+.secdl:nth-child(3),.secdl:nth-child(4){
+    border-bottom: none;
+    padding-top: 0;
+}
+
+#plan .none{
+    margin-left: 49%!important;
+}
 }
 
 
@@ -160,9 +332,13 @@ h1,h2,h3,h4,h5,h6{
         position: relative;
         overflow: hidden;
     }
+    #BIT .pic-tag2{
+        padding: 15px 0;
+    }
     .pic-tag2{
         left: 38%;
         top: 0;
+        
     }
     .bidbig span{
         font-size: 26px;
@@ -201,7 +377,7 @@ h1,h2,h3,h4,h5,h6{
         position: relative;
         background: url('../images/block/3.png') no-repeat;
         background-size: 100%;
-        height: 684px;
+        height: 610px;
     }
     .secul{
         margin: 20px auto;
@@ -235,5 +411,114 @@ h1,h2,h3,h4,h5,h6{
         text-align: center;
         color:#999999;
         font-size: 11px;
+        padding:10px 0;
+    }
+    .item6,.imglist{
+        position: relative;
+        margin-top: 20px;
+    }
+    .item6 .pic-tag2,.imglist .pic-tag2{
+        left: 32%;
+    }
+    .item6-cont{
+        padding-top: 0;
+    }
+    .patul li span{
+        color:#C4D8FF;
+    }
+    .patul li{
+        padding: 20px 6%;
+        border-bottom: 1px solid #CCCCCC;
+    }
+    .patul li h6{
+        display: inline-block;
+        font-size: 14px;
+        border-bottom: 1px solid #0066FF;
+        padding-bottom: 5px;
+    }
+    .patul li p{
+        font-size: 12px;
+        padding-top: 10px;
+    }
+    .pc_{
+        display: none;
+    }
+    #service{
+        background: url("../images/block/seri.png") no-repeat;
+        background-size: 100%;
+        position: relative;
+        height:668px;
+    }
+    .platform{
+        color:#FFFFFF;
+        margin-top: 15px;
+    }
+    .platform h2 span{
+        margin-left: 0;
+    }
+    .platmes{
+        padding: 10px 0;
+        font-size: 11px;
+        color:#8A9CBE;
+        line-height: 18px;
+        padding-left:15px;
+    }
+    .two{
+        width: 91%;
+        margin: 0 auto;
+        border:1px solid #30436D;
+    }
+    .ser-left{
+        margin-left: -6%;
+        height: 188px;
+        width: 150px;
+        margin-top: 25%;
+    }
+    .ser-left h4{
+        font-size: 12px;
+        padding-top: 46px;
+        padding-left: 12%;
+    }
+    .ser-left p{
+        font-size: 11px;
+        line-height: 15px;
+        padding: 30px 12%;
+    }
+    .ser-right h5{
+        font-size: 10px;
+        padding:2px 5px;
+    }
+    .ser-right p{
+        color:#8A9CBE;
+        font-size: 7px;
+        line-height: 15px;
+        padding-left: 5px;
+    }
+    .ser-right{
+        display: inline-block;
+        width: 61%;
+    }
+.secdl{
+   padding:5px 5%;
+    margin: 0;
+    border-bottom:1px solid #30436D;
+}
+.secdl:nth-child(4){
+    border-bottom: none;
+    padding-top: 0;
+}
+    .ser-right dt{
+        width: 32.5px;
+        height: 32.55px;
+        margin: 0;
+    }
+    #plan{
+        position: relative;
+    }
+    #plan .pic-tag2{
+        left: 33%;
+    }
+    #service .white{
+        margin-top: 10px;
     }
 }
