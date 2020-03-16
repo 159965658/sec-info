@@ -66,6 +66,7 @@
 .gbf2-item-photo {
   margin-top: 20px;
   background: #fff;
+  /* height: 214px; */
 }
 .gbf2-item-photo-title,
 .gbf2-item-photo-title2 {
@@ -103,10 +104,8 @@
 
 /* 大屏幕（大桌面显示器，大于等于 992px */
 @media (min-width: 992px) {
-  /* .gbf2-item {
-    margin-bottom: 200px;
-  } */
   .gbf2-item-photo {
+    /* background: url("../img/gbf-2/photo_bg.png") no-repeat 100%; */
     height: 214px;
     background: url("../images/gbf-2/photo_bg.png") no-repeat 100%;
   }

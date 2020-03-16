@@ -77,6 +77,9 @@ height: 638px;
     height: 449px;
 }
 @media (min-width: 770px){
+    .pic-tag2{
+        font-size: 20px;
+    }
     .banner{
         background: url("../images/block/paban.png") no-repeat;
         background-size: 100%;
@@ -152,7 +155,7 @@ height: 638px;
     }
     .privacy{
         margin-top: 14%;
-        margin-left: -15%;
+        margin-left: -20%;
     }
     .appshow{
         display: none;
@@ -207,12 +210,15 @@ height: 638px;
     }
     .item6 .pic-tag2{
         left: 7%;
+        font-size: 20px;
     }
     .bgabout{
         margin-bottom: 15px;
     }
     .imglist{
         clear:both;
+        
+        background: #F5F6FD;
     }
     .patul {
         width: 70%;
