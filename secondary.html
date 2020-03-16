@@ -415,8 +415,8 @@
     myChart.on('click', function (params) {
         console.log(params)
         var html = '';
-        html = '<div style="padding-left:15px;padding-top:17px"><p class="clickmaptitle">' + params.name + '</p>'
-            + '<div class="clickdiv row"><span class="col-xs-12">北京东方国信科技股份有限公司</span><span>-</span><span>增材制造</span></div></div>'
+        html = '<div style="padding-top:17px"><p class="clickmaptitle " style="padding-left:15px;">' + params.name + '</p>'
+            + '<div class="clickdiv row"><span class="col-xs-7">北京东方国信科技股份有限公司</span><span class="col-xs-1">-</span><span class="col-xs-3">增材制造</span></div></div>'
         console.log(html, $('#my-content'))
         $('#my-content').html(html)
     })
