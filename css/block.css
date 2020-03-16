@@ -34,6 +34,48 @@ h1,h2,h3,h4,h5,h6{
     color: #99B3E4;
 }
 
+#feat{
+    background: url('../images/block/feat.png');
+    background-size: 100% 110%;
+height: 638px;
+}
+.feimg{
+    width: 160px;
+    height: 160px;
+    background: #203E92;
+    position: absolute;
+    left: -160px;
+}
+.feimg img{
+    width: 94px;
+    height: 92px;
+    display: inline-block;
+    margin: 23%;
+}
+.feames{
+    float: right;
+    background: #FFFFFF;
+    width: 72%;
+    position: relative;
+    margin-top: 73px;
+    padding-left: 83px;
+}
+.feames h1{
+    background: none;
+    padding-top: 88px;
+    font-size: 20px;
+}
+.feames h1 span{
+    font-size: 30px;
+}
+.langua{
+    width: 70%;
+    font-size: 14px;
+    line-height: 26px;
+    color: #666666;
+    padding-top: 56px;
+    height: 449px;
+}
 @media (min-width: 770px){
     .banner{
         background: url("../images/block/paban.png") no-repeat;
@@ -109,7 +151,7 @@ h1,h2,h3,h4,h5,h6{
     }
     .privacy{
         margin-top: 14%;
-        margin-left: -9%;
+        margin-left: -15%;
     }
     .appshow{
         display: none;
@@ -297,24 +339,35 @@ h1,h2,h3,h4,h5,h6{
 width: 99px;
 height: 99px;
 display: inline-block;
+margin-top: 10px;
 }
 .pllist dd{
     display: inline-block;
     font-size: 14px;
     color:#333333;
     width: 52%;
+    vertical-align:middle
     }
     #plan{
         background: url('../images/block/planbg.png');
         background-size: 100%;
-        height: 478px;
+        height: 484px;
     }
     .planshow{
         width: 73%;
         margin: 0 auto;
     }
     .pllist{
-        margin-top: 5%;
+        margin-top: 40px;
+        height: 136px;
+    }
+    .pllist:hover{
+        background: url('../images/block/phover.png');
+        background-size: 100%;
+    }
+    .pllist:hover dd{
+        color:#FFFFFF;
+
     }
 }
 
@@ -438,8 +491,12 @@ display: inline-block;
     }
     .item6,.imglist{
         position: relative;
-        margin-top: 20px;
+        background: #F5F6FD;
     }
+ .imglist{
+     margin-top: 0;
+     height: 280px;
+ }
     .item6 .pic-tag2,.imglist .pic-tag2{
         left: 32%;
     }
@@ -470,7 +527,7 @@ display: inline-block;
         background: url("../images/block/seri.png") no-repeat;
         background-size: 100%;
         position: relative;
-        height:668px;
+        height:650px;
     }
     .platform{
         color:#FFFFFF;
@@ -537,22 +594,77 @@ display: inline-block;
     }
     #plan{
         position: relative;
+        background: #F5F6FD;
+        height: 360px;
     }
     #plan .pic-tag2{
         left: 33%;
+        top: 20px;
     }
     #service .white{
         margin-top: 10px;
+    }
+    .pllist{
+        height: 60px;
+        padding: 0;
     }
     .pllist dt{
         width: 45px;
         height: 45px;
         display: inline-block;
-        }
-        .pllist dd{
-            display: inline-block;
-            font-size: 12px;
-            color:#333333;
-            width: 60%;
-            }
+    }
+    .pllist dd{
+        display: inline-block;
+        font-size: 12px;
+        color:#333333;
+        width: 60%;
+        vertical-align:middle
+    }
+    .planshow{
+        width: 90%;
+        margin: 0 auto;
+        margin-top: 20px;
+    }
+    .feames{
+        margin-top: 21px;
+        padding-left: 15px;
+        width: 90%;
+    }
+    #feat{
+        background-size: 100%;
+        height: 572px;
+    }
+    .feimg {
+        width: 80px;
+        height: 80px;
+        left: 0;
+        top: 0;
+    }
+    .feimg img {
+        width: 46px;
+        height: 47px;
+        display: inline-block;
+        margin: 23%;
+    }
+    .feames h1{
+        padding-top: 105px;
+        font-size: 15px;
+    }
+    .feames h1 span{
+        font-size: 24px;
+        background: none;
+        display: inline-block;
+    width: 75%;
+    }
+    .langua{
+        padding-top: 20px;
+        padding: 20px 11px 0 0;
+        width: 100%;
+        font-size: 10px;
+        color: #666666;
+        line-height: 15px;
+    }
+    .imglist .rig{
+        top:25px;
+    }
 }
