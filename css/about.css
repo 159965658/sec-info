@@ -3,7 +3,7 @@
 }
 .navbar-inverse{
     background: none;
-    padding-top: 10px;
+    /* padding-top: 10px; */
     border: none;
 }
 .navbar-nav > li > a{
@@ -184,12 +184,13 @@ width: 232px ;
         color:rgba(32,55,103,1);
         padding-top: 74px;
         padding-left: 36px;
+        position: relative;
     }
     .eng .about{
         font-size: 20px;
         color:rgba(255,255,255,1);
         position: absolute;
-        top:174px;
+        top:101px;
         left: 65px;
     }
     .img{
@@ -439,12 +440,13 @@ text-align: center;
         color:rgba(32,55,103,1);
         padding-top: 80px;
         padding-left: 360px;
+        position: relative;
     }
     .eng .about{
         font-size: 40px;
         color:rgba(255,255,255,1);
         position: absolute;
-        top:204px;
+        top:127px;
         left: 410px;
     }
     .img{
