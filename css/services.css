@@ -1,115 +1,96 @@
-.ablist dd h4 {
-    color: #306CE4;
+.ablist dd h4{
+    color:#306CE4;
     font-size: 16px;
 }
-
-.ablist dd h5,
-.ablist dd h6 {
-    color: #333333;
+.ablist dd h5,.ablist dd h6{
+    color:#333333;
     font-size: 14px;
     line-height: 24px;
 }
 
-.ablist dd h6 {
-    color: #999999;
+.ablist dd h6{
+    color:#999999;
 }
 
-.swip {
+.swip{
     width: 72%;
     margin: 0 auto;
     margin-top: 67px;
     position: relative;
 }
-
-.swip li {
+.swip li{
     float: left;
-    width: 335px;
-    height: 220px;
-    background: rgba(255, 255, 255, 1);
-    border-radius: 6px;
-    margin-left: 5%;
+    width:335px;
+height:220px;
+background:rgba(255,255,255,1);
+border-radius:6px;
+margin-left: 5%;
 }
-
-.swip li h6 {
+.swip li h6{
     text-align: center;
     padding: 34px 0;
-    color: #333333;
+    color:#333333;
     font-size: 18px;
 }
-
-.swip li p {
+.swip li p{
     padding: 0 14%;
     color: #999999;
     font-size: 14px;
     line-height: 24px;
 }
-
-.bluetop {
-    width: 340px !important;
-    height: 240px !important;
+.bluetop{
+    width:340px!important;
+    height:240px!important;
     position: absolute;
     left: 29%;
     top: -10px;
-    background: rgba(48, 108, 228, 1) !important;
-    box-shadow: 0px 0px 20px 0px rgba(12, 21, 77, 0.4);
-    border-radius: 6px;
-    color: #ffffff
+    background:rgba(48,108,228,1)!important;
+box-shadow:0px 0px 20px 0px rgba(12,21,77,0.4);
+border-radius:6px;
+color:#ffffff
 }
-
-.bluetop h6,
-.bluetop p {
-    color: #ffffff !important;
+.bluetop h6,.bluetop p{
+    color:#ffffff!important;
 }
-
-.ability {
+.ability{
     background: #F7F6FD;
 }
-
-.lasts {
-    float: right !important;
+.lasts{
+    float: right!important;
 }
-
-.business {
+.business{
     background: #F7F6FB;
 }
-
-@media (min-width: 770px) {
-    .banner {
+@media (min-width: 770px){
+    .banner{
         background: url('../images/service/bg.png') no-repeat;
         background-size: 100%;
         height: 500px;
     }
-
-    .banimg,
-    .banmes {
+    .banimg,.banmes{
         display: none;
     }
-
-    .system {
+    .system{
         position: relative;
     }
-
-    .bgabout {
+    .bgabout{
         position: relative;
         left: 0;
     }
-
-    .pic-tag2 {
+    .pic-tag2{
         font-size: 18px;
         border-bottom: none;
         position: absolute;
         left: 43%;
     }
-
-    .none {
+    .none{
         width: 43px;
         height: 2px;
         background: #306CE4;
         margin-left: 49%;
         margin-top: -10px;
     }
-
-    .inter {
+    .inter{
         margin: 0 auto;
         width: 62%;
         position: relative;
@@ -118,241 +99,201 @@
         line-height: 30px;
         padding-top: 40px;
     }
-
-    .inimg {
+    .inimg{
         position: absolute;
         width: 68px;
         height: 62px;
         left: -40px;
-        top: 0%
+        top:0%
     }
-
-    .appflow {
+    .appflow{
         display: none;
     }
-
-    .pcflow {
+    .pcflow{
         margin: 0 auto;
     }
-
-    .second {
+    .second{
         background: url('../images/service/61@2x.png') no-repeat;
         background-size: 114%;
         height: 530px;
     }
-
-    .seco .engabout {
-        color: #1A2C56;
+    .seco .engabout{
+        color:#1A2C56;
     }
-
-    .white {
-        color: white;
+    .white{
+        color:white;
         left: 45%;
     }
-
-    .blue {
+    .blue{
         background: #ffffff;
     }
-
-    .secmes {
-        color: white;
+    .secmes{
+        color:white;
         line-height: 18px;
     }
-
-    .seclist {
+    .seclist{
         margin: 0px auto;
         width: 70%;
+        display: flex;
+        justify-content: center;
     }
-
-    .list {
+    .list{
         width: 250px;
         height: 245px;
         background: url('../images/service/blue.png') no-repeat;
         background-size: 98% 83%;
-        margin-left: 5%;
-        text-align: center;
+        margin-left: 2.5%;
+        margin-right: 2.5%;
     }
-
-    .list h6 {
+    .list h6{
         padding-top: 30px;
         font-size: 20px;
         color: #ffffff;
         padding-bottom: 10px;
     }
-
-    .list p {
-        color: #ffffff;
+    .list p{
+        color:#ffffff;
         font-size: 14px;
         line-height: 24px;
     }
-
-    .ability,
-    .business {
+    .ability,.business{
         height: 434px;
     }
-
-    .ability .pic-tag2 {
+    .ability .pic-tag2{
         left: 48%;
     }
-
     .ablist {
         margin-left: 0;
         width: 33%;
         margin-top: 2%;
     }
-
-    .ablist dt {
+    .ablist dt{
         width: 87px;
         height: 85px;
         float: left;
         margin-top: 10px;
         float: left;
     }
-
-    .pcshow {
+    .pcshow{
         width: 87%;
         margin: 0 auto;
     }
-
-    .ablist dd {
+    .ablist dd{
         float: left;
         padding-left: 14px;
     }
-
-    .business {
+    .business{
         position: relative;
         clear: both;
         background: #F7F6FD;
     }
-
-    .business .pic-tag2 {
+    .business .pic-tag2{
         left: 48%;
     }
-
-    .serdata {
+    .serdata{
         background: url('../images/service/750.png') no-repeat;
         background-size: 100%;
     }
-
-    .serdata .white {
+    .serdata .white{
         left: 48%;
     }
-
-    .serdata .none {
+    .serdata .none{
         margin-left: 48%;
     }
-
-    .datames {
-        font-size: 12px;
-        font-family: PingFang SC;
-        font-weight: 400;
-        color: rgba(255, 255, 255, 1);
-        line-height: 18px;
+    .datames{
+        font-size:12px;
+        font-family:PingFang SC;
+        font-weight:400;
+        color:rgba(255,255,255,1);
+        line-height:18px;
         width: 70%;
         margin: 40px auto;
         margin-bottom: 0;
     }
-
-    .datlist {
+    .datlist{
         margin: 0 auto;
         background: #ffffff;
         margin-top: 40px;
     }
-
-    .mess {
+    .mess{
         padding-top: 30px;
     }
-
-    .datlist ul {
+    .datlist ul{
         display: flex;
-        padding: 20px 50px;
+        padding:20px 50px;
     }
-
-    .seco {
+    .seco{
         top: 30px;
     }
-
-    .datlist ul li {
+    .datlist ul li{
         flex: 1;
-        height: 312px;
-        background: rgba(255, 255, 255, 1);
-        box-shadow: 0px 0px 7px 0px rgba(26, 45, 87, 0.25);
-        border-radius: 2px;
+        height:312px;
+        background:rgba(255,255,255,1);
+        box-shadow:0px 0px 7px 0px rgba(26,45,87,0.25);
+        border-radius:2px;
         margin-left: 5%;
         text-align: left;
         padding: 15px 30px;
     }
-
-    .datlist ul li .img {
+    .datlist ul li .img{
         width: 38px;
         height: 34px;
         margin: 0;
     }
-
-    .datlist ul li h5 {
-        font-size: 16px;
-        font-family: PingFang SC;
-        font-weight: 400;
-        color: rgba(51, 51, 51, 1);
-        line-height: 18px;
+    .datlist ul li h5{
+        font-size:16px;
+        font-family:PingFang SC;
+        font-weight:400;
+        color:rgba(51,51,51,1);
+        line-height:18px;
         padding: 10px 0;
     }
-
-    .datlist ul li h6 {
-        font-size: 14px;
-        font-family: PingFang SC;
-        font-weight: 400;
-        color: rgba(102, 102, 102, 1);
-        line-height: 24px;
+    .datlist ul li h6{
+        font-size:14px;
+        font-family:PingFang SC;
+        font-weight:400;
+        color:rgba(102,102,102,1);
+        line-height:24px;
     }
-
-    .datline {
+    .datline{
         display: none;
     }
-
-    .pattern {
+    .pattern{
         width: 100%;
         margin: 0 auto;
         background: #F7F6FD;
         padding-top: 20px;
     }
-
-    .pattern .rig {
+    .pattern .rig{
         left: 44%;
     }
-
-    .pattern h2 {
+    .pattern h2{
         font-size: 18px;
         clear: both;
-
-        padding-left: 15%;
+        
+    padding-left: 15%;
     }
-
-    .pattern h2 span {
+    .pattern h2 span{
         display: inline-block;
         width: 18px;
         height: 3px;
         background: #0066FF;
         margin-right: 1%;
     }
-
-    .patul {
+    .patul{
         padding: 0 15%;
     }
-
-    .patul li {
+    .patul li{
         margin: 5% 0 3% 3%;
         width: 22%;
     }
-
-    .patul li h6 {
+    .patul li h6{
         position: relative;
         font-size: 14px;
         color: #666666;
         line-height: 24px;
     }
-
-    .patul li span {
+    .patul li span{
         position: absolute;
         font-size: 48px;
         color: #CEDEFF;
@@ -360,121 +301,102 @@
         left: -8%;
         font-weight: 600;
     }
-
-    .patul li span b {
+    .patul li span b{
         display: none;
     }
-
-    .item6 .pic-tag2 {
+    .item6 .pic-tag2{
         left: 48%;
-        top: 45px;
+        top:45px;
     }
-
     .form-group {
         margin-bottom: 30px;
         display: flow-root;
     }
-
-    .item6-cont {
+    .item6-cont{
         width: 72%;
         margin: 0 auto;
         margin-top: 40px;
     }
-
-    #name {
+    #name{
         width: 49%;
         float: left;
     }
-
     #phone {
         width: 49%;
         float: right;
         margin-left: 10px;
     }
-
-    .btn {
+    .btn{
         display: block;
         margin: 0 auto;
         width: 130px;
         margin-bottom: 30px;
     }
-
-    .imglist {
-
+    .imglist{
+        
         background: #F5F6FD;
     }
+.imglist .rig{
+    left: 48%;
+}
+.imgs{
+    height: 380px;
+    background: url('../images/service/imgbg.png') no-repeat;
+    background-size: 72%;
+    margin-top: 30px;
+}
+.imglist ul{
+    width: 79%;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 42px 0;
+}
+.imglist ul li{
+    width: 112px;
+    height:57px;
+    margin: 20px 10px;
+}
 
-    .imglist .rig {
-        left: 48%;
-    }
+.pic-tag2{
+    font-size: 20px;
+}
+.row{
+    padding-top: 20px;
+}
 
-    .imgs {
-        height: 380px;
-        background: url('../images/service/imgbg.png') no-repeat;
-        background-size: 72%;
-        margin-top: 30px;
-    }
-
-    .imglist ul {
-        width: 79%;
-        margin: 0 auto;
-        display: flex;
-        flex-wrap: wrap;
-        padding: 42px 0;
-    }
-
-    .imglist ul li {
-        width: 112px;
-        height: 57px;
-        margin: 20px 10px;
-    }
-
-    .pic-tag2 {
-        font-size: 20px;
-    }
-
-    .row {
-        padding-top: 20px;
-    }
-
-    .system .pic-tag2 {
-        left: 42% !important;
-    }
+.system .pic-tag2{
+    left: 42%!important;
+}
 }
 
 
 
 
-@media(max-width:768px) {
-    .banner {
+@media(max-width:768px){
+    .banner{
         background: url('../images/service/2x.png') no-repeat;
-        position: relative;
+       position: relative;
     }
-
-    .banimg {
+    .banimg{
         margin: 0 auto;
     }
-
-    .banmes {
-        padding: 0 30px;
+    .banmes{
+        padding:0 30px;
         font-size: 14px;
         color: #8A9CBE;
         line-height: 18px;
     }
-
-    .down {
+    .down{
         bottom: -10px;
     }
-
-    .bgabout {
+    .bgabout{
         margin-left: 19%;
     }
-
-    .none {
+    .none{
         display: none;
     }
-
-    .inter {
+    .inter{
         margin: 20px auto;
         width: 80%;
         position: relative;
@@ -482,86 +404,71 @@
         line-height: 30px;
         color: #666666;
     }
-
-    .inter p {
-        margin: 0 !important;
+    .inter p{
+        margin: 0!important;
     }
-
-    .inimg {
+    .inimg{
         position: absolute;
         width: 40px;
         height: 40px;
         left: -16px;
         top: 8%;
     }
-
-    .pcflow {
+    .pcflow{
         display: none;
         margin: 0 auto;
     }
-
-    .second {
+    .second{
         background: url('../images/service/1.png') no-repeat;
         background-size: 100%;
         height: 560px;
     }
-
-    .white {
+    .white{
         color: #ffffff;
     }
-
-    .seco {
+    .seco{
         margin-left: 26%;
     }
-
-    .secmes {
-        color: white;
+    .secmes{
+        color:white;
         line-height: 20px;
+        padding-top: 93px;
     }
-
-    .seclist {
+    .seclist{
         width: 85%;
         margin: 0 auto;
     }
-
-    .list {
+    .list{
         height: 93px;
         background: url('../images/service/7@2x.png') no-repeat;
         background-size: 100%;
         margin-bottom: 10px;
     }
-
-    .list h6 {
+    .list h6{
         font-size: 14px;
         color: #ffffff;
-        padding: 10px 0;
+        padding:10px 0;
         padding-bottom: 0;
     }
-
-    .list p {
-        color: #ffffff;
+    .list p{
+        color:#ffffff;
         font-size: 12px;
         line-height: 14px;
     }
-
-    .ability {
+    .ability{
         height: 812px;
     }
-
-    .ability .bgabout {
-        margin-left: 31%;
+    .ability .bgabout{
+        margin-left:31%;
     }
-
-    .ablist {
+    .ablist{
         position: relative;
         margin-top: 50px;
     }
-
-    .pcshow {
+    .pcshow{
         width: 98%;
     }
-
-    .ablist dt {
+    .ablist dt{
         position: absolute;
         top: -24%;
         left: 36%;
@@ -569,261 +476,221 @@
         height: 60px;
         margin-top: 10px;
     }
-
-    .ablist dd {
-        width: 165px;
-        height: 180px;
+    .ablist dd{
+        width:165px;
+        height:180px;
         text-align: center;
-        box-shadow: 0px 0px 7px 0px rgba(139, 139, 139, 0.26);
-        border-radius: 5px;
-        background: linear-gradient(to bottom, #F3F4FB, #FFFFFF);
+        box-shadow:0px 0px 7px 0px rgba(139,139,139,0.26);
+        border-radius:5px;
+        background: linear-gradient(to bottom,#F3F4FB,#FFFFFF);
         padding-top: 18%;
     }
-
-    .ablist dd h6 {
+    .ablist dd h6{
         text-align: left;
         padding: 0 6%;
         font-size: 10px;
         line-height: 14px;
     }
-
-    .ablist dd h4 {
+    .ablist dd h4{
         font-size: 14px;
         padding-top: 7%;
     }
-
-    .ablist dd h5 {
+    .ablist dd h5{
         font-size: 12px;
         line-height: 24px;
     }
-
-    .business .bgabout {
+    .business .bgabout{
         margin-left: 30%;
     }
-
-    .swip {
-        width: 126%;
-        height: 180px;
-    }
-
-    .swipe {
-        overflow-x: scroll;
-    }
-
-    .swip li {
-        width: 150px;
-        height: 150px;
-        background: rgba(255, 255, 255, 1);
-        border-radius: 3px;
-        margin: 0;
-    }
-
-    .swip li h6 {
-        text-align: center;
-        padding: 6px 0;
-        color: #333333;
-        font-size: 12px;
-    }
-
-    .swip li p {
-        padding: 0 4%;
-        color: #999999;
-        font-size: 10px;
-        line-height: 14px;
-    }
-
-    .bluetop {
-        width: 170px !important;
-        height: 160px !important;
-        top: -5px;
-        left: 32%;
-        background: rgba(48, 108, 228, 1);
-        box-shadow: 0px 0px 10px 0px rgba(12, 21, 77, 0.4);
-        border-radius: 3px;
-    }
-
-    .serdata {
-        background: url('../images/service/appdata.png') no-repeat;
-        background-size: 100%;
-        height: 370px;
-    }
-
-    .serdata .bgabout {
-        margin-left: 35%;
-    }
-
-    .datames {
-        height: 200px;
-    }
-
-    .mess {
-        font-size: 12px;
-        font-family: Microsoft YaHei;
-        font-weight: 400;
-        color: rgba(255, 255, 255, 1);
-        line-height: 15px;
-        padding: 0 5%;
-    }
-
-    .datlist {
-        margin: 4px auto;
-        overflow-x: scroll;
-        height: 252px;
-        padding: 10px 0;
-    }
-
-    .datlist ul {
-        padding: 0;
-        width: 117%;
-        height: 220px;
-        clear: both;
-
-    }
-
-    .datlist ul li {
-        float: left;
-        width: 126px;
-        height: 100%;
-        background: rgba(255, 255, 255, 1);
-        box-shadow: 0px 0px 7px 0px rgba(26, 45, 87, 0.25);
-        border-radius: 2px;
-        margin-left: 15px;
-        padding: 12px 15px;
-        position: relative;
-    }
-
-    .datlist ul li .img {
-        width: 26px;
-        height: 23px;
-        margin: 0;
-    }
-
-    .datlist ul li h5 {
-        font-size: 13px;
-        font-family: PingFang SC;
-        font-weight: 400;
-        color: rgba(51, 51, 51, 1);
-        line-height: 18px;
-    }
-
-    .datlist ul li h6 {
-        font-size: 10px;
-        font-family: PingFang SC;
-        font-weight: 400;
-        color: rgba(102, 102, 102, 1);
-        line-height: 14px;
-    }
-
-    .datline {
-        list-style: none;
-        padding: 0;
-        width: 117%;
-    }
-
-    .datline li {
-        float: left;
-        width: 100%;
-        height: 0.5px;
-        background: #ffffff;
-    }
-
-    .datlist ul li span {
-        position: absolute;
-        width: 6px;
-        height: 6px;
-        background: #ffffff;
-        border-radius: 50%;
-        top: -6%;
-        left: 41%;
-    }
-
-    .pattern .bgabout {
-        margin-left: 24%;
-    }
-
-    .pattern h2 {
-        font-size: 15px;
-    }
-
-    .pattern h2 span {
-        display: inline-block;
-        width: 10px;
-        height: 10px;
-        background: #0066FF;
-        margin-left: 5%;
-    }
-
-    .pattern h2 {
-        font-size: 14px;
-        clear: both;
-    }
-
-    .pattern h2 span {
-        display: inline-block;
-        width: 10px;
-        height: 10px;
-        background: #0066FF;
-        margin-right: 1%;
-    }
-
-    .patul li {
-        position: relative;
-        font-size: 14px;
-        color: #666666;
-        line-height: 18px;
-        padding-left: 15%;
-        padding: 15px 0 15px 15%;
-    }
-
-    .patul li span {
-        position: absolute;
-        font-size: 24px;
-        color: #CEDEFF;
-        top: 15px;
-        left: 4%;
-        font-weight: 600;
-    }
-
-    .item6 .bgabout,
-    .imglist .bgabout {
-        margin-left: 33%;
-    }
-
-    .item6-cont {
-        width: 90%;
-        margin: 0 auto;
-    }
-
-    #name {
-        margin-bottom: 20px;
-    }
-
-    .item6-cont .btn-primary {
-        width: 100%;
-        margin-bottom: 20px;
-    }
-
-    .imglist ul {
-        width: 90%;
-        margin: 0 auto;
-        display: flex;
-        flex-wrap: wrap;
-    }
-
-    .imglist ul li {
-        width: 66px;
-        height: 46px;
-        padding: 5px;
-    }
-
-    .slect {
-        overflow-x: scroll;
-    }
-
-    .slect img {
-        width: 240%;
-        height: 100%;
-        overflow-x: scroll;
-        margin-left: -48%;
-    }
+.swip{
+    width: 126%;
+    height: 180px;
+}
+.swipe{
+    overflow-x: scroll;
+}
+.swip li{
+    width:150px;
+height:150px;
+background:rgba(255,255,255,1);
+border-radius:3px;
+margin: 0;
+}
+.swip li h6{
+    text-align: center;
+    padding: 6px 0;
+    color:#333333;
+    font-size: 12px;
+}
+.swip li p{
+    padding: 0 4%;
+    color: #999999;
+    font-size: 10px;
+    line-height: 14px;
+}
+.bluetop{
+    width:170px!important;
+    height:160px!important;
+    top: -5px;
+    left: 32%;
+    background:rgba(48,108,228,1);
+box-shadow:0px 0px 10px 0px rgba(12,21,77,0.4);
+border-radius:3px;
+}
+.serdata{
+    background: url('../images/service/appdata.png') no-repeat;
+    background-size: 100%;
+    height: 370px;
+}
+.serdata .bgabout{
+    margin-left: 35%;
+}
+.datames{
+    height: 200px;
+}
+.mess{
+    font-size:12px;
+    font-family:Microsoft YaHei;
+    font-weight:400;
+    color:rgba(255,255,255,1);
+    line-height:15px;
+    padding: 0 5%;
+}
+.datlist{
+    margin: 4px auto;
+    overflow-x: scroll;
+    height: 252px;
+    padding: 10px 0;
+}
+.datlist ul{
+    padding: 0;
+    width: 117%;
+    height:220px;
+    clear: both;
+    
+}
+.datlist ul li{
+    float: left;
+    width: 126px;
+    height: 100%;
+    background:rgba(255,255,255,1);
+    box-shadow:0px 0px 7px 0px rgba(26,45,87,0.25);
+    border-radius:2px;
+    margin-left: 15px;
+    padding:12px 15px;
+    position: relative;
+}
+.datlist ul li .img{
+    width: 26px;
+    height: 23px;
+    margin: 0;
+}
+.datlist ul li h5{
+    font-size:13px;
+    font-family:PingFang SC;
+    font-weight:400;
+    color:rgba(51,51,51,1);
+    line-height:18px;
+}
+.datlist ul li h6{
+    font-size:10px;
+    font-family:PingFang SC;
+    font-weight:400;
+    color:rgba(102,102,102,1);
+    line-height:14px;
+}
+.datline{
+    list-style: none;
+    padding:0;
+    width: 117%;
+}
+.datline li{
+    float: left;
+    width: 100%;
+    height: 0.5px;
+    background: #ffffff;
+}
+.datlist ul li span{
+    position: absolute;
+    width: 6px;
+    height: 6px;
+    background: #ffffff;
+    border-radius: 50%;
+    top:-6%;
+    left: 41%;
+}
+.pattern .bgabout{
+    margin-left: 24%;
+}
+.pattern h2{
+    font-size: 15px;
+}
+.pattern h2 span{
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    background: #0066FF;
+    margin-left: 5%;
+}
+.pattern h2{
+    font-size: 14px;
+    clear: both;
+}
+.pattern h2 span{
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    background: #0066FF;
+    margin-right: 1%;
+}
+.patul li{
+    position: relative;
+    font-size: 14px;
+    color: #666666;
+    line-height: 18px;
+    padding-left: 15%;
+    padding: 15px 0 15px 15%;
+}
+.patul li span{
+    position: absolute;
+    font-size: 24px;
+    color: #CEDEFF;
+    top: 15px;
+    left: 4%;
+    font-weight: 600;
+}
+.item6 .bgabout,.imglist .bgabout{
+margin-left: 33%;
+}
+.item6-cont{
+    width: 90%;
+    margin: 0 auto;
+}
+#name{
+    margin-bottom: 20px;
+}
+.item6-cont .btn-primary {
+    width: 100%;
+    margin-bottom: 20px;
+}
+.imglist ul{
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+.imglist ul li{
+    width: 66px;
+    height: 46px;
+    padding: 5px;
+}
+.slect{
+    overflow-x: scroll;
+}
+.slect img {
+    width: 240%;
+    height: 100%;
+    overflow-x: scroll;
+    margin-left: -48%;
+}
 }
