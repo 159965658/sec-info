@@ -511,7 +511,7 @@ text-align: center;
         line-height:30px;
         padding-left: 84px;
         padding-top: 10%;
-        width: 46%;
+        width: 64%;
     }
     .pate-img{
         width: 94px;
@@ -597,6 +597,7 @@ text-align: center;
     width: 80%;
     background: #FFFFFF;
     height: 780px;
+    padding-top: 30px;
 }
 .team-head .pic-tag2{
     left: 38%;
@@ -611,7 +612,7 @@ h1{
     color:rgba(51,51,51,1);
     line-height:24px;
     font-weight: 600;
-    padding-left: 28px;
+    padding-left: 32px;
     background: url('../images/aboutours/maohao.png') no-repeat 5px;
     background-size: 18px;
 }
@@ -620,6 +621,7 @@ h1{
     padding-left: 38px;
     line-height: 20px;
     color: #666666;
+    padding-top: 5px;
 }
 .misstext .pic-tag2,.course .pic-tag2,.telltext{
     left: 48%;

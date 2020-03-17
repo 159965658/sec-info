@@ -217,7 +217,7 @@ height: 638px;
     }
     .imglist{
         clear:both;
-        
+        padding-top: 30px;
         background: #F5F6FD;
     }
     .patul {
@@ -269,9 +269,9 @@ height: 638px;
     }
     #service{
         background: url("../images/block/seribg.png") no-repeat;
-        background-size: 100%;
+        background-size: 110%;
         position: relative;
-        height: 544px;
+        height: 600px;
     }
     .platform{
         width: 70%;
@@ -327,7 +327,7 @@ height: 638px;
 .secdl{
     display: inline-block;
     width: 49%;
-   padding:0 5%;
+   padding:30px 5%;
     margin: 0;
     border-bottom:1px solid #30436D;
 }
@@ -358,7 +358,8 @@ margin-top: 10px;
     #plan{
         background: url('../images/block/planbg.png');
         background-size: 100%;
-        height: 484px;
+        height: 520px;
+        padding-top: 30px;
     }
     .planshow{
         width: 73%;
