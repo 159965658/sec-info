@@ -59,9 +59,10 @@
 	.course{
 		clear: both;
 		background-size: 100% 100%;
-		height:180px;
+		height:185px;
 		position: relative;
-		overflow-x: scroll;
+		margin-bottom:20px;
+		/*overflow-x: scroll;*/
 	}
 	.misstext{
 		position: absolute;
@@ -76,6 +77,16 @@
 	.timeline{
 		display: flex;
 		margin: 0 20px;
+	}
+	#timeline li:hover{
+		cursor:pointer;
+	}
+	#timeline li:hover .status .author,#timeline li:hover .status .date{
+		color:#3F6AB4;
+		
+	}
+	#timeline li:hover .status:before{
+		background:#3F6AB4;
 	}
 	.tal{
 		color:#FFFFFF;
@@ -95,7 +106,7 @@
 		position: relative;
 		transition: all 200ms ease-in;}
 	.author{
-	  font-size: 20px;
+	  font-size: 16px;
 	  color: #CDDBF6;
 	}
 	.date{
@@ -202,7 +213,7 @@
 		left: 50%;
 		margin-left: -48px;
 		z-index: 3;
-		top: 10px;
+		top: 36px;
 	}
 	.item3-title h2 .line-b,.item4-title h2 .line-b{
 		width: 93px;
@@ -218,9 +229,10 @@
 		display: inline-block;
 		position: absolute;
 		left: 50%;
+		top:14%;
 		margin-left: -112px;
 	}
-	.item3-cont{margin:0 auto;margin-top: 50px;width:80%;}
+	.item3-cont{margin:0 auto;margin-top: 70px;width:80%;}
 	.item3-cont .item3-img {
 		width: 20%;
 	}
@@ -231,6 +243,7 @@
 		width: 200px;
 		display: none;
 	}
+	
 	.item3-img-msg h2{
 		font-size: 16px;
 		font-weight: 600;
@@ -243,7 +256,14 @@
 		font-weight: 600;
 		color: rgba(153,153,153,1);
 	}
-	.item4{position: relative;height: 600px;}
+	.bgitem3{
+		position:absolute;
+		right:0%;
+		bottom: 0%;
+	    width: 32%;
+	    z-index: -1;
+	}
+	.item4{position: relative;height: 545px;}
 	.item4-title{margin-bottom: 50px;;}
 	.item4-cont{
 		background: url(../images/gbf/组33@2x-1.png)no-repeat;
@@ -262,7 +282,7 @@
 		background-size: 72%;
 	}
 	.imglist ul{
-		width: 76%;
+		width: 85%;
 		margin: 0 auto;
 		display: flex;
 		flex-wrap: wrap;
@@ -271,7 +291,7 @@
 	.imglist ul li{
 		width: 124px;
 		height: 70px;
-		padding: 5px;
+		padding: 15px 15px 84px 15px;
 	}
 	
 	}
@@ -355,6 +375,7 @@
 		}
 		.item3-cont .item3-img:hover img{ transform: scale(1.4);}
 		.item3-cont .item3-img:hover .item3-img-msg{display: block;}
+		
 		.item3-cont img{margin: 0 auto;}
 		.item3-img-msg{
 			width: 200px;
