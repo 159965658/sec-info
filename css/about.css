@@ -1,116 +1,137 @@
-*{
+* {
     box-sizing: border-box;
 }
-.navbar-inverse{
+
+.navbar-inverse {
     background: none;
     /* padding-top: 10px; */
     border: none;
 }
-.navbar-nav > li > a{
-    color:#8A9CBE;
+
+.navbar-nav>li>a {
+    color: #8A9CBE;
 }
-img{
+
+img {
     width: 100%;
     height: 100%;
 }
-.dlimg{
+
+.dlimg {
     border-bottom: 1px solid #2B467E;
     border-left: 1px solid #2B467E;
     margin-bottom: 0;
-     padding: 30px 6%!important;
-     width: 20%!important;
- }
- .dlimg dt{
-     width: 40px;
-     height: 44px;
-     margin-left: 15px;
- }
- .dlimg dd{
-     font-size:14px;
- font-family:Microsoft YaHei;
- font-weight:400;
- color:rgba(205,219,246,1);
- line-height:30px;
- padding-top: 19px;
- }
-.course{
+    padding: 30px 6% !important;
+    width: 20% !important;
+}
+
+.dlimg dt {
+    width: 40px;
+    height: 44px;
+    margin-left: 15px;
+}
+
+.dlimg dd {
+    font-size: 14px;
+    font-family: Microsoft YaHei;
+    font-weight: 400;
+    color: rgba(205, 219, 246, 1);
+    line-height: 30px;
+    padding-top: 19px;
+}
+
+.course {
     clear: both;
     background: url('../images/aboutours/histroy.png');
     background-size: 100% 100%;
-    height:560px;
+    height: 560px;
     position: relative;
     overflow-x: scroll;
     padding-top: 30px;
 }
-.misstext{
+
+.misstext {
     position: absolute;
     width: 100%;
 }
-.course .engabout{
-    color:#203767;
+
+.course .engabout {
+    color: #203767;
 }
-.course .pic-tag2{
-    color:#FFFFFF;
-    left: 33%!important;
+
+.course .pic-tag2 {
+    color: #FFFFFF;
+    left: 33% !important;
 }
-.timeline{
+
+.timeline {
     display: flex;
     margin: 0 100px;
     margin-top: 7%;
 }
-.tal{
-    color:#FFFFFF;
+
+.tal {
+    color: #FFFFFF;
 }
-.li{
-transition: all 200ms ease-in;
-width: 200px;
+
+.li {
+    transition: all 200ms ease-in;
+    width: 200px;
 }
-.timestamp{
-display: flex;
-flex-direction: column;
-font-weight: 100;
+
+.timestamp {
+    display: flex;
+    flex-direction: column;
+    font-weight: 100;
 }
-.status{
+
+.status {
     justify-content: center;
-    border-top: 2px solid rgba(69,179,252,1);
+    border-top: 2px solid rgba(69, 179, 252, 1);
     position: relative;
     transition: all 200ms ease-in;
-/* border-image: linear-gradient(rgba(69,179,252,1),rgba(123,206,215,1),rgba(67,118,198,1),rgba(123,206,215,1),rgba(67,118,198,1),rgba(123,206,215,1),rgba(67,118,198,1)); */
+    /* border-image: linear-gradient(rgba(69,179,252,1),rgba(123,206,215,1),rgba(67,118,198,1),rgba(123,206,215,1),rgba(67,118,198,1),rgba(123,206,215,1),rgba(67,118,198,1)); */
 }
-.author{
-  font-size: 20px;
-  color: #CDDBF6;
+
+.author {
+    font-size: 20px;
+    color: #CDDBF6;
 }
-.date{
-font-size: 14px;
-color: #8A9CBE;
-line-height: 20px;
-width: 232px ;
+
+.date {
+    font-size: 14px;
+    color: #8A9CBE;
+    line-height: 20px;
+    width: 232px;
 }
-.status:before{
-  border: none;
-  transition: all 200ms ease-in;
-  content: '';
-  position: absolute;
-  top: -20px;
-  left: -7%;
-  width: 38px;
-  height: 38px;
-  background: url('../images/aboutours/组\ 17@2x.png');
-  background-size: 100%;
+
+.status:before {
+    border: none;
+    transition: all 200ms ease-in;
+    content: '';
+    position: absolute;
+    top: -20px;
+    left: -7%;
+    width: 38px;
+    height: 38px;
+    background: url('../images/aboutours/组\ 17@2x.png');
+    background-size: 100%;
 }
-.li:nth-of-type(even){
+
+.li:nth-of-type(even) {
     margin-top: 62px;
 }
-.bug{
+
+.bug {
     font-size: 14px;
     font-weight: 600;
     color: #333333;
     padding-top: 20px;
-    margin:0 35px
+    margin: 0 35px
 }
-.progress-bar{
-    width:80%;
+
+.progress-bar {
+    width: 80%;
     height: 6px;
     background-color: #F0F0F0;
     margin: 20px 0;
@@ -118,167 +139,200 @@ width: 232px ;
     border-radius: 3px;
     display: inline-block;
 }
-.num{
+
+.num {
     display: inline-block;
     padding-left: 15px;
-    padding-top:10px;
+    padding-top: 10px;
 }
-.progress{
+
+.progress {
     width: 50%;
     height: 100%;
     background-color: #306CE4;
     border-radius: 3px;
 
 }
-.industry{
+
+.industry {
     width: 25%;
     height: 100%;
     background-color: #306CE4;
     border-radius: 3px;
 }
-.expert{
+
+.expert {
     width: 10%;
     height: 100%;
     background-color: #306CE4;
     border-radius: 3px;
 }
-.markets{
+
+.markets {
     width: 15%;
     height: 100%;
     background-color: #306CE4;
     border-radius: 3px;
 }
-.progress-bar span{
+
+.progress-bar span {
     color: #000000;
 }
 
 @media(max-width: 768px) {
-    
-.pcadd,.word{
-    display: none;
-}
-    .bug{
+
+    .pcadd,
+    .word {
+        display: none;
+    }
+
+    .bug {
         padding-left: 0;
         margin-left: 0;
     }
-    .progress-bar{
+
+    .progress-bar {
         margin-left: 0;
         width: 85%;
     }
-    .cont{
+
+    .cont {
         padding: 0;
         margin: 0;
         width: 100%;
         height: 100%;
     }
-    .navbar-inverse .navbar-toggle{
-        border:none;
+
+    .navbar-inverse .navbar-toggle {
+        border: none;
     }
-    .banner{
+
+    .banner {
         position: relative;
         height: 620px;
         background: url('../images/aboutours/组 1@2x.png');
         background-size: 100% 100%;
         font-size: 50px;
     }
-    .eng{
-        font-size:36px;
-        font-family:FZCCHJW;
-        font-weight:normal;
-        color:rgba(32,55,103,1);
+
+    .eng {
+        font-size: 36px;
+        font-family: FZCCHJW;
+        font-weight: normal;
+        color: rgba(32, 55, 103, 1);
         padding-top: 74px;
         padding-left: 36px;
         position: relative;
     }
-    .eng .about{
+
+    .eng .about {
         font-size: 20px;
-        color:rgba(255,255,255,1);
+        color: rgba(255, 255, 255, 1);
         position: absolute;
-        top:101px;
+        top: 101px;
         left: 65px;
     }
-    .img{
+
+    .img {
         width: 317px;
         height: 216px;
         margin: 0 auto;
         margin-top: 103px;
     }
-    .img img{
+
+    .img img {
         width: 100%;
         height: 100%;
     }
-    .down{
+
+    .down {
         position: absolute;
-        bottom:0;
+        bottom: 0;
         left: 48%;
     }
-    .engabout{
+
+    .engabout {
         display: none;
     }
-    .bgabout{
+
+    .bgabout {
         display: inline-block;
         margin-left: 35%;
         margin-top: 30px;
     }
-    .tellabout{
+
+    .tellabout {
         display: inline-block;
         margin-left: 35%;
         margin-top: 30px;
     }
-    .pic-tag2{
-        display: inline-block;
-        font-size: 16px;
-        padding: 0 2px;
-}
-.pic-tag2 .line-l,.pic-tag2 .line-r{
-    display: block;
-    width: 20px;
-    display: inline-block;
-    border-top: 2px solid #030B2E;
-    vertical-align: middle;
-    margin-right: 10px;
-}
-.pic-tag2 .line-r{
-    margin-right: 0;
-    margin-left: 10px;
-}
-    .abouts{
+
+    .pic-tag2 {
         display: inline-block;
         font-size: 16px;
         padding: 0 2px;
     }
-    .line{
+
+    .pic-tag2 .line-l,
+    .pic-tag2 .line-r {
+        display: block;
+        width: 20px;
         display: inline-block;
-        width:14px;
-        height:2px;
-        background:rgba(3,11,46,1);
-        border-radius:1px;
+        border-top: 2px solid #030B2E;
+        vertical-align: middle;
+        margin-right: 10px;
     }
-    .item-plate1-pic{
+
+    .pic-tag2 .line-r {
+        margin-right: 0;
+        margin-left: 10px;
+    }
+
+    .abouts {
+        display: inline-block;
+        font-size: 16px;
+        padding: 0 2px;
+    }
+
+    .line {
+        display: inline-block;
+        width: 14px;
+        height: 2px;
+        background: rgba(3, 11, 46, 1);
+        border-radius: 1px;
+    }
+
+    .item-plate1-pic {
         width: 233px;
         height: 205px;
         margin-left: 20%;
         margin-top: 36px;
     }
-    .item-plate1-msg{
-        font-size:14px;
-        font-family:Microsoft YaHei;
-        font-weight:400;
-        color:rgba(102,102,102,1);
-        line-height:20px;        
+
+    .item-plate1-msg {
+        font-size: 14px;
+        font-family: Microsoft YaHei;
+        font-weight: 400;
+        color: rgba(102, 102, 102, 1);
+        line-height: 20px;
         padding-bottom: 24.5px;
     }
-    .course .pic-tag2{
-        
+
+    .course .pic-tag2 {
+
         margin-left: 34%;
     }
-    .course,.talent .pic-tag2 i{
-        border-color:#FFFFFF;
+
+    .course,
+    .talent .pic-tag2 i {
+        border-color: #FFFFFF;
     }
-    .pate-img{
+
+    .pate-img {
         display: none;
     }
-    .course{
+
+    .course {
         clear: both;
         height: 417px;
         background: url('../images/aboutours/组 1@2x.png');
@@ -286,466 +340,566 @@ width: 232px ;
         font-size: 50px;
         margin-top: 24.5px;
     }
-    .date{
+
+    .date {
         width: 160px;
         line-height: 15px;
     }
-    .li{
+
+    .li {
         width: 140px;
     }
-    .li:nth-of-type(even) .status:before{
+
+    .li:nth-of-type(even) .status:before {
         margin-top: 5px;
     }
-    .small{
+
+    .small {
         width: 140px;
     }
-    .timeline{
+
+    .timeline {
         margin: 0 20px;
     }
-    .misstext{
+
+    .misstext {
         display: inline-block;
         margin-left: 30%;
         margin-top: 30px;
     }
-    .mission{
+
+    .mission {
         background-color: #F7F6FD;
         height: 680px;
     }
-    .vision{
+
+    .vision {
         width: 300px;
         height: 160px;
         position: relative;
         margin: 0 auto;
         margin-top: 24%;
         background: #FFFFFF;
-        border-radius:20px;
+        border-radius: 20px;
     }
-    .vision h2{
+
+    .vision h2 {
         text-align: center;
         padding-top: 12%;
         font-size: 18px;
         color: #333333;
         font-weight: 600;
     }
-    .vis-img{
+
+    .vis-img {
         width: 58px;
         height: 58px;
         position: absolute;
         left: 40%;
         top: -16%;
     }
-    .vision-mes{
+
+    .vision-mes {
         color: #666666;
         font-size: 14px;
         text-align: center;
         padding-top: 8%;
     }
-    .lang{
-       margin-top: 50px;
+
+    .lang {
+        margin-top: 50px;
     }
-    .lang .vision-mes{
+
+    .lang .vision-mes {
         padding: 0 13%;
         text-align: left;
         padding-top: 0;
     }
-    .about-pic{
+
+    .about-pic {
         width: 300px;
         height: 182px;
         margin-top: 20px;
         margin-left: 15px;
     }
-    h1{
+
+    h1 {
         font-size: 14px;
         font-weight: 600;
-        color:#333333;
+        color: #333333;
     }
-    h1 span{
+
+    h1 span {
         display: inline-block;
         width: 10px;
         height: 10px;
         background: #0066FF;
         margin-right: 10px;
     }
-    .team-mis li{
+
+    .team-mis li {
         background: url('../images/aboutours/left.png') no-repeat 2px 0;
         background-size: 6px 9px;
         padding-left: 15px;
     }
-    .talent{
+
+    .talent {
         clear: both;
         background: url('../images/aboutours/组\ 1@2x.png');
         background-size: 100%;
         padding-bottom: 15px;
     }
-    
-.white .line-l,.white .line-r{
-    border-color: #FFFFFF;
-}
-.talmes{
-    color:#CDDBF6;
-    font-size: 14px;
-    line-height: 20px;
-    padding:0 20px;
+
+    .white .line-l,
+    .white .line-r {
+        border-color: #FFFFFF;
+    }
+
+    .talmes {
+        color: #CDDBF6;
+        font-size: 14px;
+        line-height: 20px;
+        padding: 0 20px;
+    }
+
+    .button {
+        margin: 20px auto;
+        width: 180px;
+        height: 40px;
+        background: rgba(0, 102, 255, 1);
+        border-radius: 20px;
+        color: #FFFFFF;
+        clear: both;
+        line-height: 40px;
+        text-align: center;
+    }
+
+    .dllist {
+        height: 400px;
+    }
+
+    .appdis {
+        padding: 28px 10px;
+    }
+
+    .address {
+        background: url('../images/aboutours/dizhi@2x.png') no-repeat;
+        background-size: 19px 22px;
+    }
+
+    .appdis li {
+        font-size: 14px;
+        font-family: Microsoft YaHei;
+        font-weight: 400;
+        color: rgba(102, 102, 102, 1);
+        padding-left: 35px;
+        padding-bottom: 15px;
+    }
+
+    .email {
+        background: url('../images/aboutours/xinfeng.png') no-repeat;
+        background-size: 19px 15px;
+    }
+
+    .weibo {
+        background: url('../images/aboutours/weibo.png') no-repeat;
+        background-size: 25px 19px;
+    }
+
+    .vx {
+        background: url('../images/aboutours/weixin.png') no-repeat;
+        background-size: 25px 21px;
+    }
 }
 
-.button{
-    margin: 20px auto;
-    width:180px;
-height:40px;
-background:rgba(0,102,255,1);
-border-radius:20px;
-color: #FFFFFF;
-clear: both;
-line-height: 40px;
-text-align: center;
-}
-.dllist{
-    height:400px;
-}
-.appdis{
-    padding: 28px 10px;
-}
-.address{
-    background: url('../images/aboutours/dizhi@2x.png') no-repeat;
-    background-size: 19px 22px;
-}
-.appdis li{
-    font-size:14px;
-    font-family:Microsoft YaHei;
-    font-weight:400;
-    color:rgba(102,102,102,1);
-    padding-left: 35px;
-    padding-bottom: 15px;
-}
-.email{
-    background: url('../images/aboutours/xinfeng.png') no-repeat;
-    background-size: 19px 15px;
-}
-.weibo{
-    background: url('../images/aboutours/weibo.png') no-repeat;
-    background-size: 25px 19px;
-}
-.vx{
-    background: url('../images/aboutours/weixin.png') no-repeat;
-    background-size: 25px 21px;
-}
-}
 @media(min-width: 770px) {
-    .banner{
+    .banner {
         height: 700px;
         background: url('../images/aboutours/banner.png');
-        background-size: 100% 100%; 
+        background-size: 100% 100%;
         position: relative;
     }
-    .eng{
-        font-size:72px;
-        font-family:FZCCHJW;
-        font-weight:normal;
-        color:rgba(32,55,103,1);
+
+    .eng {
+        font-size: 72px;
+        font-family: FZCCHJW;
+        font-weight: 600;
+        letter-spacing: 4px;
+        color: rgba(32, 55, 103, 1);
         padding-top: 80px;
-        padding-left: 360px;
+        padding-left: 120px;
         position: relative;
+
     }
-    .eng .about{
+
+    .eng .about {
+        font-weight: normal;
         font-size: 40px;
-        color:rgba(255,255,255,1);
+        letter-spacing: 1px;
+        color: rgba(255, 255, 255, 1);
         position: absolute;
-        top:127px;
-        left: 410px;
+        top: 135px;
+        left: 165px;
     }
-    .img{
+
+    .img {
         width: 636px;
         height: 420px;
         margin: 0 auto;
     }
-    .img img{
+
+    .img img {
         width: 100%;
         height: 100%;
     }
-    .down{
+
+    .down {
         display: none;
     }
-    .bgabout{
+
+    .bgabout {
         margin: 0 auto;
         position: absolute;
         left: 42%;
     }
-    .abouttext{
+
+    .abouttext {
         position: relative;
         padding-top: 30px;
         height: 550px;
     }
-    .engabout{
+
+    .engabout {
         padding-top: 10px;
         text-align: center;
-        font-size:46px;
-        font-family:FZCCHJW;
-        font-weight:normal;
-        color:rgba(237,237,237,1);
+        font-size: 46px;
+        font-family: FZCCHJW;
+        font-weight: normal;
+        color: rgba(237, 237, 237, 1);
     }
-    .abouts{
+
+    .abouts {
         position: absolute;
-        font-size:24px;
-        font-family:PingFang SC;
-        font-weight:600;
-        color:rgba(51,51,51,1);
-        top:40px;
-        left:47%;
+        font-size: 24px;
+        font-family: PingFang SC;
+        font-weight: 600;
+        color: rgba(51, 51, 51, 1);
+        top: 40px;
+        left: 47%;
         border-bottom: 2px solid #306CE4;
     }
-    .item-plate1-pic{
+
+    .item-plate1-pic {
         width: 400px;
         height: 400px;
         margin-left: 10%;
         margin-top: 6%;
     }
-    .item-plate1-pic img{
-        width:100%;
+
+    .item-plate1-pic img {
+        width: 100%;
         height: 100%;
     }
-    .item-plate1-msg{
-        font-size:14px;
-        font-family:PingFang SC;
-        font-weight:400;
-        color:rgba(102,102,102,1);
-        line-height:30px;
+
+    .item-plate1-msg {
+        font-size: 14px;
+        font-family: PingFang SC;
+        font-weight: 400;
+        color: rgba(102, 102, 102, 1);
+        line-height: 30px;
         padding-left: 84px;
         padding-top: 10%;
         width: 64%;
     }
-    .pate-img{
+
+    .pate-img {
         width: 94px;
         height: 94px;
         float: right;
     }
-    .pate-img img{
-        width:100%;
+
+    .pate-img img {
+        width: 100%;
         height: 100%;
     }
-    .pic-tag2{
+
+    .pic-tag2 {
         position: absolute;
         left: 36%;
         top: 45px;
         z-index: 99;
-        font-size:24px;
-        font-weight:400;
-        color:rgba(51,51,51,1);
-        line-height:24px;
+        font-size: 24px;
+        font-weight: 400;
+        color: rgba(51, 51, 51, 1);
+        line-height: 24px;
         border-bottom: 2px solid #306CE4;
         padding-bottom: 5px;
         font-weight: 600;
     }
-    .pic-tag2 .line-l,.pic-tag2 .line-r{
-        display:none;
+
+    .pic-tag2 .line-l,
+    .pic-tag2 .line-r {
+        display: none;
     }
-  
- .last{
-     padding-right: 180px;
- }
- .mission{
-     background-color: #F7F6FD;
-     height: 500px;
-     padding-top: 30px;
- }
- .cent{
-     text-align: center;
- }
- .vision{
-     width: 310px;
-     height: 260px;
-     position: relative;
-     margin-top: 36%;
-     background: #FFFFFF;
-     border-radius:20px;
- }
- .vision h2{
-     text-align: center;
-     padding-top: 18%;
-     font-size: 18px;
-     color: #333333;
-     font-weight: 600;
-     padding-bottom: 10%;
- }
- .vis-img{
-     width: 82px;
-     height: 82px;
-     position: absolute;
-     left: 37%;
-     top: -16%;
- }
- .vision-mes{
-     color: #666666;
-     font-size: 14px;
-     width: 82%;
-     margin: 0 auto;
- }
- .gg{
-     width: 60%;
-     margin: 0 auto;
- }
- .col-lg-4 {
-    width: 18%;
-    margin-left: 10%;
-    margin-top: 6%;
-}
-.team{
-    background: url('../images/aboutours/bigbg.png');
-    position: relative;
-    height: 1386px;
-}
-.team-head{
-    width: 80%;
-    background: #FFFFFF;
-    height: 780px;
-    padding-top: 30px;
-}
-.team-head .pic-tag2{
-    left: 38%;
-}
-.engabout{
-    color: #EDEDED;
-}
-h1{
-    font-size:16px;
-    font-family:PingFang SC;
-    font-weight:400;
-    color:rgba(51,51,51,1);
-    line-height:24px;
-    font-weight: 600;
-    padding-left: 32px;
-    background: url('../images/aboutours/maohao.png') no-repeat 5px;
-    background-size: 18px;
-}
-.team-mis{
-    list-style-type: disc;
-    padding-left: 38px;
-    line-height: 20px;
-    color: #666666;
-    padding-top: 5px;
-}
-.misstext .pic-tag2,.course .pic-tag2,.telltext{
-    left: 48%;
-}
 
-.item-plate1-img{
-    position: absolute;
-    right:9%;
-    width: 500px;
-    height: 360px;
-    margin-top: 10%;
-    margin-left: 8%;
-}
-.talent{
-    position: relative;
-}
-.tal{
-    color:#FFFFFF;
-    left: 33%;
-}
-.tale{
-    color:#203767;
-}
-.about-pic{
-    position: absolute;
-    right: 0;
-    width: 600px;
-    height: 300px;
-    margin-top: 10%;
-    margin-left: 15px;
-}
-.talmes{
-    color:#CDDBF6;
-    font-size: 14px;
-    line-height: 20px;
-    padding-top: 10%;
-    margin-bottom: 50px;
-}
-.button{
-    display: none;
-}
-.dlimg{
-    padding: 30px 8%;
-}
-.talent {
-    padding: 0 10%;
-    padding-top: 30px;
-}
-.tellous{
-    position: relative;
-    margin-bottom: 130px;
-    margin-top: 20px;
-}
-.map{
-    width: 100%;
-    height: 480px;
-    position: relative;
-    margin-top: 30px;
-}
-.appdis{
-    display: none;
-}
-.pcadd{
-    position: absolute;
-    left: 20%;
-    bottom:-10%;
-    width: 320px;
-    height: 250px;
-    background: #204899;
-    font-size:14px;
-font-family:PingFang SC;
-font-weight:400;
-color:rgba(255,255,255,1);
-padding: 30px;
-}
-.address{
-    background: url('../images/aboutours/dizhi.png') no-repeat;
-    background-size: 19px 22px;
-    float: left;
-}
-.pcadd li{
-    font-size:14px;
-    font-family:Microsoft YaHei;
-    font-weight:400;
-    color:#FFFFFF;
-    padding-left: 34px;
-    padding-bottom: 10px;
-}
+    .last {
+        padding-right: 180px;
+    }
 
-.pcadd li span,.word span{
-    display: inline-block;
-    padding-left: 19px;
-}
-.email{
-    clear: both;
-    background: url('../images/aboutours/xinfeng@2x.png') no-repeat;
-    background-size: 19px 15px;
-}
-.weibo{
-    background: url('../images/aboutours/weibo@2x.png') no-repeat;
-    background-size: 25px 19px; 
-    margin:10px 0;
-}
-.vx{
-    background: url('../images/aboutours/weixin@2x.png') no-repeat;
-    background-size: 25px 21px;
-}
-.rig{
-    float: right;
-    width: 65%;
-    padding-left: 24px!important;
-}
-.word{
-    margin-left: 55%;
-    margin-top: 30px;
-}
-.word li{
-    float: left;
-    width: 44%;
-    padding-top: 10px;
-    padding-left: 35px;
-}
-.emails{
-    background: url('../images/aboutours/xinfeng3.png') no-repeat 0 13px;
-    background-size: 19px 15px;
-}
+    .mission {
+        background-color: #F7F6FD;
+        height: 500px;
+        padding-top: 30px;
+    }
+
+    .cent {
+        text-align: center;
+    }
+
+    .vision {
+        width: 310px;
+        height: 260px;
+        position: relative;
+        margin-top: 36%;
+        background: #FFFFFF;
+        border-radius: 20px;
+    }
+
+    .vision h2 {
+        text-align: center;
+        padding-top: 18%;
+        font-size: 18px;
+        color: #333333;
+        font-weight: 600;
+        padding-bottom: 10%;
+    }
+
+    .vis-img {
+        width: 82px;
+        height: 82px;
+        position: absolute;
+        left: 37%;
+        top: -16%;
+    }
+
+    .vision-mes {
+        color: #666666;
+        font-size: 14px;
+        width: 82%;
+        margin: 0 auto;
+    }
+
+    .gg {
+        width: 60%;
+        margin: 0 auto;
+    }
+
+    .col-lg-4 {
+        width: 18%;
+        margin-left: 10%;
+        margin-top: 6%;
+    }
+
+    .team {
+        background: url('../images/aboutours/bigbg.png');
+        position: relative;
+        height: 1386px;
+    }
+
+    .team-head {
+        width: 80%;
+        background: #FFFFFF;
+        height: 780px;
+        padding-top: 30px;
+    }
+
+    .team-head .pic-tag2 {
+        left: 38%;
+    }
+
+    .engabout {
+        color: #EDEDED;
+    }
+
+    h1 {
+        font-size: 16px;
+        font-family: PingFang SC;
+        font-weight: 400;
+        color: rgba(51, 51, 51, 1);
+        line-height: 24px;
+        font-weight: 600;
+        padding-left: 32px;
+        background: url('../images/aboutours/maohao.png') no-repeat 5px;
+        background-size: 18px;
+    }
+
+    .team-mis {
+        list-style-type: disc;
+        padding-left: 38px;
+        line-height: 20px;
+        color: #666666;
+        padding-top: 5px;
+    }
+
+    .team-mis li {
+        /* list-style: disc inside;
+        color: red; */
+        color: #BEC6EE;
+    }
+
+    .team-mis li span {
+        /* list-style: disc inside;
+        color: red; */
+        color: #666;
+    }
+
+    .misstext .pic-tag2,
+    .course .pic-tag2,
+    .telltext {
+        left: 48%;
+    }
+
+    .item-plate1-img {
+        position: absolute;
+        right: 9%;
+        width: 500px;
+        height: 360px;
+        margin-top: 10%;
+        margin-left: 8%;
+    }
+
+    .talent {
+        position: relative;
+    }
+
+    .tal {
+        color: #FFFFFF;
+        left: 33%;
+    }
+
+    .tale {
+        color: #203767;
+    }
+
+    .about-pic {
+        position: absolute;
+        right: 0;
+        width: 600px;
+        height: 300px;
+        margin-top: 10%;
+        margin-left: 15px;
+    }
+
+    .talmes {
+        color: #CDDBF6;
+        font-size: 14px;
+        line-height: 20px;
+        padding-top: 10%;
+        margin-bottom: 50px;
+    }
+
+    .button {
+        display: none;
+    }
+
+    .dlimg {
+        padding: 30px 8%;
+    }
+
+    .talent {
+        padding: 0 10%;
+        padding-top: 30px;
+    }
+
+    .tellous {
+        position: relative;
+        margin-bottom: 130px;
+        margin-top: 20px;
+    }
+
+    .map {
+        width: 100%;
+        height: 480px;
+        position: relative;
+        margin-top: 30px;
+    }
+
+    .appdis {
+        display: none;
+    }
+
+    .pcadd {
+        position: absolute;
+        left: 20%;
+        bottom: -10%;
+        width: 320px;
+        height: 250px;
+        background: #204899;
+        font-size: 14px;
+        font-family: PingFang SC;
+        font-weight: 400;
+        color: rgba(255, 255, 255, 1);
+        padding: 30px;
+    }
+
+    .address {
+        background: url('../images/aboutours/dizhi.png') no-repeat;
+        background-size: 19px 22px;
+        float: left;
+    }
+
+    .pcadd li {
+        font-size: 14px;
+        font-family: Microsoft YaHei;
+        font-weight: 400;
+        color: #FFFFFF;
+        padding-left: 34px;
+        padding-bottom: 10px;
+    }
+
+    .pcadd li span,
+    .word span {
+        display: inline-block;
+        padding-left: 19px;
+    }
+
+    .email {
+        clear: both;
+        background: url('../images/aboutours/xinfeng@2x.png') no-repeat;
+        background-size: 19px 15px;
+    }
+
+    .weibo {
+        background: url('../images/aboutours/weibo@2x.png') no-repeat;
+        background-size: 25px 19px;
+        margin: 10px 0;
+    }
+
+    .vx {
+        background: url('../images/aboutours/weixin@2x.png') no-repeat;
+        background-size: 25px 21px;
+    }
+
+    .rig {
+        float: right;
+        width: 65%;
+        padding-left: 24px !important;
+    }
+
+    .word {
+        margin-left: 55%;
+        margin-top: 30px;
+    }
+
+    .word li {
+        float: left;
+        width: 44%;
+        padding-top: 10px;
+        padding-left: 35px;
+    }
+
+    .emails {
+        background: url('../images/aboutours/xinfeng3.png') no-repeat 0 13px;
+        background-size: 19px 15px;
+    }
 }
