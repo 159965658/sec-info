@@ -191,6 +191,11 @@ img {
         margin-left: 0;
     }
 
+    .course {
+
+        padding-top: 0px;
+    }
+
     .progress-bar {
         margin-left: 0;
         width: 85%;
@@ -258,7 +263,7 @@ img {
     .bgabout {
         display: inline-block;
         margin-left: 35%;
-        margin-top: 30px;
+        margin-top: 0px;
     }
 
     .tellabout {
@@ -319,8 +324,8 @@ img {
     }
 
     .course .pic-tag2 {
-
-        margin-left: 34%;
+        margin-top: 0 !important;
+        /* margin-left: 34%; */
     }
 
     .course,
@@ -537,6 +542,11 @@ img {
         text-align: center;
         padding-top: 5px;
     }
+
+    .talent,
+    .team {
+        padding-top: 30px;
+    }
 }
 
 @media(min-width: 770px) {
@@ -598,9 +608,12 @@ img {
         position: relative;
         padding-top: 30px;
         height: 550px;
+        width: 75%;
+        margin: 0 auto;
     }
 
     .engabout {
+
         padding-top: 10px;
         text-align: center;
         font-size: 46px;
@@ -623,7 +636,7 @@ img {
     .item-plate1-pic {
         width: 400px;
         height: 400px;
-        margin-left: 10%;
+        /* margin-left: 10%; */
         margin-top: 6%;
     }
 
@@ -638,9 +651,8 @@ img {
         font-weight: 400;
         color: rgba(102, 102, 102, 1);
         line-height: 30px;
-        padding-left: 84px;
-        padding-top: 10%;
-        width: 64%;
+        padding: 10% 20px 0 120px;
+        width: 60%;
     }
 
     .pate-img {
@@ -735,10 +747,12 @@ img {
         background: url('../images/aboutours/bigbg.png');
         position: relative;
         height: 1386px;
+
     }
 
     .team-head {
         width: 80%;
+        padding: 0 10%;
         background: #FFFFFF;
         height: 780px;
         padding-top: 30px;
@@ -838,7 +852,7 @@ img {
     }
 
     .talent {
-        padding: 0 10%;
+        padding: 0 12.5%;
         padding-top: 30px;
     }
 
@@ -936,7 +950,7 @@ img {
 
     .swiper-container {
         margin: 0 auto;
-        width: 80%;
+        width: 75%;
         height: 284px;
         display: block;
     }
@@ -1029,7 +1043,7 @@ img {
 
 
     .pager {
-        width: 80%;
+        width: 75%;
         margin: 0 auto;
         text-align: left;
     }
