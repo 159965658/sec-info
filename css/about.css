@@ -510,9 +510,40 @@ img {
         background: url('../images/aboutours/weixin.png') no-repeat;
         background-size: 25px 21px;
     }
+
+    .showPC {
+        display: none;
+    }
+
+    .dllist {
+        margin-bottom: 10px;
+    }
+
+    .dlimg {
+        width: 50% !important;
+    }
+
+    .dlimg dt {
+        width: 40px;
+        height: 44px;
+        margin: 0 auto;
+    }
+
+    .dlimg dd {
+        font-size: 14px;
+        font-family: Microsoft YaHei;
+        font-weight: 400;
+        color: rgba(205, 219, 246, 1);
+        text-align: center;
+        padding-top: 5px;
+    }
 }
 
 @media(min-width: 770px) {
+    .showMB {
+        display: none;
+    }
+
     .banner {
         height: 700px;
         background: url('../images/aboutours/banner.png');
@@ -902,4 +933,70 @@ img {
         background: url('../images/aboutours/xinfeng3.png') no-repeat 0 13px;
         background-size: 19px 15px;
     }
+
+    .swiper-container {
+        margin: 0 auto;
+        width: 80%;
+        height: 300px;
+        display: block;
+    }
+
+    .swiper-container .dlimgs {
+        display: flex;
+        border: none;
+        border-bottom: 1px solid #2B467E;
+        margin-bottom: 0;
+        width: 100% !important;
+        box-sizing: content-box
+    }
+
+    .swiper-container .noborder {
+        border: none;
+    }
+
+
+    .swiper-container .dlimgs .dlimg {
+        display: block;
+        border: none;
+        border-right: 1px solid #2B467E;
+        margin-bottom: 0;
+        width: 20% !important;
+        box-sizing: content-box
+    }
+
+
+    .swiper-container .dlimgs .dlimg:last-child {
+        border: none;
+    }
+
+
+    .swiper-container .dlimgs .dlimg img {
+        display: block;
+        text-align: center;
+        margin: 0 auto;
+        width: 40px;
+        height: 44px;
+    }
+
+    .swiper-container .dlimgs .dlimg a {
+        text-decoration: none;
+        color: rgba(205, 219, 246, 1);
+        font-size: 14px;
+        ;
+    }
+
+
+    .swiper-container .dlimgs .dlimg>span {
+        width: 100%;
+        display: block;
+        font-size: 14px;
+        font-family: Microsoft YaHei;
+        font-weight: 400;
+        color: rgba(205, 219, 246, 1);
+        line-height: 30px;
+        padding-top: 0px;
+    }
+
+
+
 }
