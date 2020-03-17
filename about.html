@@ -11,25 +11,7 @@
     <link rel="stylesheet" href="./css/about.css">
     <!-- Demo styles -->
     <style>
-        .swiper-slide {
-            text-align: center;
-            font-size: 18px;
-            height: calc((100% - 30px) / 2);
 
-            /* Center slide text vertically */
-            display: -webkit-box;
-            display: -ms-flexbox;
-            display: -webkit-flex;
-            display: flex;
-            -webkit-box-pack: center;
-            -ms-flex-pack: center;
-            -webkit-justify-content: center;
-            justify-content: center;
-            -webkit-box-align: center;
-            -ms-flex-align: center;
-            -webkit-align-items: center;
-            align-items: center;
-        }
     </style>
 </head>
 
@@ -535,12 +517,15 @@
 
                     </div>
 
-
                 </div>
                 <!-- Add Pagination -->
-                <div class="swiper-pagination"></div>
+                <!-- <div class="swiper-pagination"></div> -->
             </div>
-
+            <div class="pager showPC">
+                <a class="sel" href="javascript:;">1</a>
+                <a href="javascript:;">2</a>
+                <a href="javascript:;">3</a>
+            </div>
             <!-- 招聘 -->
 
         </div>
@@ -627,11 +612,29 @@
             slidesPerView: 1,
             slidesPerColumn: 2,
             spaceBetween: 0,
+            autoplay: true,
+            // loop: true,
             pagination: {
-                el: '.swiper-pagination',
+                // el: '.swiper-pagination',
                 clickable: true,
             },
+            on: {
+                slideChange: function () {
+                    $('.pager a.sel').removeClass("sel")
+                    $('.pager').find("a").eq(this.activeIndex).addClass("sel")
+                }
+            }
         });
+        $(document).ready(function () { //code 
+
+            $('.pager a').click(function () {
+                let index = $('.pager a').index(this);
+                $('.pager a.sel').removeClass("sel")
+                swiper.slideTo(index)
+                $(this).addClass("sel")
+            })
+
+        })
     </script>
 </body>
 

@@ -1027,4 +1027,26 @@ img {
 
 
 
+
+    .pager {
+        width: 80%;
+        margin: 0 auto;
+        text-align: left;
+    }
+
+    .pager a {
+        display: inline-block;
+        border-bottom: 2px solid#3C60AB;
+        width: 25px;
+        margin-right: 5px;
+        text-align: center;
+        color: #3C60AB;
+        text-decoration: none;
+    }
+
+    .pager a.sel {
+        display: inline-block;
+        border-bottom: 2px solid #3B9CFF;
+        color: #3B9CFF;
+    }
 }
