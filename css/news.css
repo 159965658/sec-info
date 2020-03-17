@@ -1,4 +1,9 @@
 .banner .img-responsive{margin:0}
+@media (min-width: 1004px) {
+	.container {
+	  width: 1200px;
+	}
+  }
 .navbar-inverse{
 	background-color: #051b3f !important;
 	border:none
@@ -55,11 +60,17 @@
 	color: #fff;
 	line-height: 50px;
 }
-
-
+.pagination-box{margin-top: 50px;}
+.pagination > li > a, .pagination > li > span{
+	border: none;
+	margin-right: 17px;
+    color: #616266;
+    background: #F0F2F5;
+}
 @media(min-width: 770px) {
 	.item-pc{
-		margin-top: 40px;;
+		margin-top: 40px;
+		margin-bottom: 40px;
 	}
 	.input-group{
 		width: 100%;
@@ -94,6 +105,8 @@
 		font-size: 18px;
 		font-weight: 500;
 		color: rgba(51,51,51,1);
+		margin-top: 35px;
+		margin-bottom: 15px;
 	}
 	.item-nav h2 i{
 		background: url(../images/news/xinwengonggao@2x.png) no-repeat;
@@ -129,6 +142,8 @@
 		font-size:18px;
 		font-weight:500;
 		color:rgba(51,51,51,1);
+		margin-top: 35px;
+		margin-bottom: 35px;
 	}
 	.hot-active ul li{margin-bottom: 15px;}
 	.hot-active ul li h2{
@@ -161,6 +176,7 @@
 		color: rgba(255,255,255,1);
 		text-align: center;
 		display: block;
+		font-style: normal;
 	}
 	.active-icon i:nth-child(2){
     font-size: 16px;

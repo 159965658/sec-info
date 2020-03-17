@@ -7,6 +7,7 @@ li {
   margin: 0;
   padding: 0;
 }
+p{margin: 0;}
 a {
   text-decoration: none;
 }
@@ -248,10 +249,16 @@ html * {
   color: #8a9cbe;
   padding: 30px 0;
 }
+@media (min-width: 1004px) {
+  .container {
+    width: 1200px;
+  }
+}
 @media (max-width: 992px) {
   .navbar-brand {
     margin-left: 15px;
   }
+}
   @media (max-width: 768px) {
     .article-title {
       text-align: left !important;

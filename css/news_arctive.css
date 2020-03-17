@@ -1,55 +1,66 @@
-.navbar-inverse{
-			background-color: #061534 !important;
-		}
-		.article-title {
-			text-align: center;
-		}
-		.article-title h2{
-			font-size: 20px;
-			color: #333;
-		}
-		.article-title span{
-			margin-right: 30px;
-			font-size: 14px;
-			line-height: 26px;
-			color: #999;
-		}
-		.article-title span .icon-share{
-			background: url(./images/fenxiang@2x.png)no-repeat;
-			width: 15px;
-		    height: 13px;
-		    display: inline-block;
-		    background-size: 80%;
-		    vertical-align: middle;
-		}
-		.icon-reprint{
-			background: url(./images/wenzhangzhuanzai@2x.png)no-repeat;
-			width: 15px;
-		    height: 15px;
-		    display: inline-block;
-		    background-size: 80%;
-		    vertical-align: middle;
-		}
-		.article-cont {
-			font-size: 14px;
-			color: #333;
-			line-height: 26px;
-			text-indent: 30px;
-		}
-		.img-responsive{
-			margin: 15px 0;
-		}
-		.share-move{
-			text-align: center;
-			margin-top: 30px;
-			margin-bottom: 30px;
-		}
-		.share-move a{ 
-			width:50px;
-			height:50px;
-			background:rgba(48,108,228,1);
-			border-radius:50%;
-			display: inline-block;
-			color: #fff;
-			line-height: 50px;
-		}
+.navbar-fixed-top{
+	background-color: #061534 !important;
+}
+.article-item{margin-top: 80px;}
+.article-title {
+	text-align: center;
+}
+.article-title h2{
+	font-size: 20px;
+	line-height: 30px;
+	color: #333;
+}
+.article-title .info{
+	margin-top: 15px;
+}
+.article-title span{
+	margin-right: 30px;
+	font-size: 14px;
+	line-height: 26px;
+	color: #999;
+}
+.article-title span .icon-share{
+	background: url(../images/news_arctive/fenxiang@2x.png)no-repeat;
+	width: 20px;
+	height: 20px;
+	display: inline-block;
+	background-size: 80%;
+	vertical-align: middle;
+}
+.icon-reprint{
+	background: url(../images/news_arctive/wenzhangzhuanzai@2x.png)no-repeat;
+	width: 20px;
+	height: 20px;
+	display: inline-block;
+	background-size: 80%;
+	vertical-align: middle;
+}
+.article-cont {
+	font-size: 14px;
+	color: #333;
+	line-height: 26px;
+	text-indent: 30px;
+	margin-bottom: 30px;
+}
+.article-cont .img-responsive{
+	margin: 30px 0;
+}
+.share-move{
+	text-align: center;
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+.share-move a{ 
+	width:50px;
+	height:50px;
+	background:rgba(48,108,228,1);
+	border-radius:50%;
+	display: inline-block;
+	color: #fff;
+	line-height: 50px;
+}
+@media (max-width: 770px) {
+	.article-item{margin-top: 50px;}
+	.article-cont .img-responsive{margin:20px 0;}
+	.article-title .info{margin-top: 10px;}
+}
