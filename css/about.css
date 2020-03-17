@@ -17,7 +17,8 @@ img{
     border-bottom: 1px solid #2B467E;
     border-left: 1px solid #2B467E;
     margin-bottom: 0;
-     padding: 30px 13%;
+     padding: 30px 6%!important;
+     width: 20%!important;
  }
  .dlimg dt{
      width: 40px;
@@ -30,6 +31,7 @@ img{
  font-weight:400;
  color:rgba(205,219,246,1);
  line-height:30px;
+ padding-top: 19px;
  }
 .course{
     clear: both;
@@ -38,6 +40,7 @@ img{
     height:560px;
     position: relative;
     overflow-x: scroll;
+    padding-top: 30px;
 }
 .misstext{
     position: absolute;
@@ -48,6 +51,7 @@ img{
 }
 .course .pic-tag2{
     color:#FFFFFF;
+    left: 33%!important;
 }
 .timeline{
     display: flex;
@@ -106,7 +110,7 @@ width: 232px ;
     margin:0 35px
 }
 .progress-bar{
-    width:85%;
+    width:80%;
     height: 6px;
     background-color: #F0F0F0;
     margin: 20px 0;
@@ -468,6 +472,8 @@ text-align: center;
     }
     .abouttext{
         position: relative;
+        padding-top: 30px;
+        height: 550px;
     }
     .engabout{
         padding-top: 10px;
@@ -505,6 +511,7 @@ text-align: center;
         line-height:30px;
         padding-left: 84px;
         padding-top: 10%;
+        width: 46%;
     }
     .pate-img{
         width: 94px;
@@ -537,7 +544,11 @@ text-align: center;
  }
  .mission{
      background-color: #F7F6FD;
-     height: 460px;
+     height: 500px;
+     padding-top: 30px;
+ }
+ .cent{
+     text-align: center;
  }
  .vision{
      width: 310px;
@@ -565,7 +576,12 @@ text-align: center;
  .vision-mes{
      color: #666666;
      font-size: 14px;
-     text-align: center;
+     width: 82%;
+     margin: 0 auto;
+ }
+ .gg{
+     width: 60%;
+     margin: 0 auto;
  }
  .col-lg-4 {
     width: 18%;
@@ -575,12 +591,12 @@ text-align: center;
 .team{
     background: url('../images/aboutours/bigbg.png');
     position: relative;
-    height: 1240px;
+    height: 1386px;
 }
 .team-head{
     width: 80%;
     background: #FFFFFF;
-    height: 720px;
+    height: 780px;
 }
 .team-head .pic-tag2{
     left: 38%;
@@ -640,6 +656,7 @@ h1{
     font-size: 14px;
     line-height: 20px;
     padding-top: 10%;
+    margin-bottom: 50px;
 }
 .button{
     display: none;
@@ -649,15 +666,18 @@ h1{
 }
 .talent {
     padding: 0 10%;
+    padding-top: 30px;
 }
 .tellous{
     position: relative;
     margin-bottom: 130px;
+    margin-top: 20px;
 }
 .map{
     width: 100%;
     height: 480px;
     position: relative;
+    margin-top: 30px;
 }
 .appdis{
     display: none;
@@ -667,13 +687,13 @@ h1{
     left: 20%;
     bottom:-10%;
     width: 320px;
-    height: 220px;
+    height: 250px;
     background: #204899;
     font-size:14px;
 font-family:PingFang SC;
 font-weight:400;
 color:rgba(255,255,255,1);
-padding: 20px;
+padding: 30px;
 }
 .address{
     background: url('../images/aboutours/dizhi.png') no-repeat;
@@ -685,8 +705,13 @@ padding: 20px;
     font-family:Microsoft YaHei;
     font-weight:400;
     color:#FFFFFF;
-    padding-left: 35px;
-    padding-bottom: 5px;
+    padding-left: 34px;
+    padding-bottom: 10px;
+}
+
+.pcadd li span,.word span{
+    display: inline-block;
+    padding-left: 19px;
 }
 .email{
     clear: both;
@@ -704,6 +729,8 @@ padding: 20px;
 }
 .rig{
     float: right;
+    width: 65%;
+    padding-left: 24px!important;
 }
 .word{
     margin-left: 55%;
@@ -711,9 +738,9 @@ padding: 20px;
 }
 .word li{
     float: left;
-    width: 40%;
+    width: 44%;
     padding-top: 10px;
-    padding-left: 25px;
+    padding-left: 35px;
 }
 .emails{
     background: url('../images/aboutours/xinfeng3.png') no-repeat 0 13px;
