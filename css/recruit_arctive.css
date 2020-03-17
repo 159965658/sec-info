@@ -184,6 +184,10 @@ a {
         margin-right: 20px;
     }
 
+    .Contact {
+        margin: 0;
+    }
+
     .item .container {
         padding: 0;
         background: #F7F6F9;
