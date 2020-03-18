@@ -1,4 +1,7 @@
 p{margin:0;}
+body{
+	background:#f6f7fc;
+}
 @media(min-width: 770px) {
 .navbar-inverse {
 	background: #0a3f8f;
@@ -20,9 +23,12 @@ p{margin:0;}
 	top: -70px;
 	height: 310px;
 }
+.posita{
+	position:relative;
+}
 .item1-line{
 	position: absolute;
-	left: 8%;
+	left: -4%;
     top: 120px;
 	width:170px;
 	height:3px;
@@ -69,13 +75,14 @@ p{margin:0;}
 .item2-cont-bot div:nth-child(2),.item2-cont-bot div:nth-child(4){margin-top: 40px;}
 .item3{padding: 50px 0;}
 .item3 .item3-img {
-	width: 31%;
+	width: 22%;
     background: rgba(255,255,255,1);
     box-shadow: 0px 5px 8px 0px rgba(0, 0, 0, 0.1);
 	border-radius: 10px;
-	margin-right: 20px;
+	margin-left:6%;
+	margin-right:5%;
 	text-align: center;
-	height: 220px;
+	height: 192px;
 }
 .item3-img a{margin-top: -50px; display: block;}
 .item3 img{max-width: 40%;margin: 0 auto;}
@@ -87,6 +94,7 @@ p{margin:0;}
 	font-weight:400;
 	color:rgba(51,51,51,1);
 	line-height:30px;
+	margin-top:0px;
 }
 .item3-img-msg p{
 	font-size:14px;
@@ -96,7 +104,8 @@ p{margin:0;}
 	text-align: left;
 	padding: 0 15px;
 }
-.item3 .item3-img:last-child  p{text-align: center;}
+.item3 .item3-img:last-child  p{text-align: left;
+    margin-left: 31%;}
 
 
 }

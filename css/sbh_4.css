@@ -1,4 +1,7 @@
 p{margin:0;}
+body{
+	background:#f6f7fc;
+}
 @media(min-width: 770px) {
 .navbar-inverse {
 	background: #0a3f8f;
@@ -20,9 +23,12 @@ p{margin:0;}
 	top: -100px;
 	height: 320px;
 }
+.posita{
+	position:relative;
+}
 .item1-line{
 	position: absolute;
-	left: 8%;
+	left: -4%;
     top: 120px;
 	width:170px;
 	height:3px;
@@ -70,7 +76,7 @@ p{margin:0;}
 	border-radius: 10px;
 	margin-right: 20px;
 	text-align: center;
-	height: 150px;
+	height: 192px;
 }
 .item3-img a{margin-top: -25px; display: block;}
 .item3 img{max-width: 40%;margin: 0 auto;}
@@ -82,12 +88,16 @@ p{margin:0;}
 	font-weight:400;
 	color:rgba(51,51,51,1);
 	line-height:30px;
+	margin-top:8px;
+	margin-bottom:16px;
 }
 .item3-img-msg p{
 	font-size:14px;
 	font-weight:300;
 	color:rgba(51,51,51,1);
 	line-height:18px;
+	text-align:left;
+	padding-left:3%;
 }
 
 

@@ -134,13 +134,16 @@ color:#ffffff
     .seclist{
         margin: 0px auto;
         width: 70%;
+        display: flex;
+        justify-content: center;
     }
     .list{
         width: 250px;
         height: 245px;
         background: url('../images/service/blue.png') no-repeat;
         background-size: 98% 83%;
-        margin-left: 5%;
+        margin-left: 2.5%;
+        margin-right: 2.5%;
     }
     .list h6{
         padding-top: 30px;

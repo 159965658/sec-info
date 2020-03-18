@@ -5,6 +5,7 @@
   /* margin: 0 auto; */
 }
 .gbf_2-layout .banner img {
+    width: 100%;
   max-width: 100%;
   margin: 0 auto;
 }
@@ -92,7 +93,7 @@
   display: inline-block;
   height: 236px;
   padding: 0px;
-  margin-bottom: 15px;
+  margin-bottom: 35px;
 }
 .gbf2-item-photo-list-item:last-child {
   margin-right: 0px;
@@ -116,7 +117,7 @@
   .gbf2-item-photo-list-item {
     width: 287px;
     height: 236px;
-    margin-right: 30px;
+    margin-right: 50px;
   }
   .gbf2-item-desc-text {
     padding: 0px 20px;
@@ -130,9 +131,9 @@
     top: -50px;
   }
   .gbf2-item-title {
-    margin-top: 82px;
+    margin-top: 65px;
   }
   .gbf2-item-desc {
-    margin-top: 110px;
+    margin-top: 75px;
   }
 }
